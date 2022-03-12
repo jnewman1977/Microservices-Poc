@@ -1,0 +1,62 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3.8-management
+    container_name: nitro-rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  mongo:
+    image: mongo
+    container_name: nitro-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - E:\mongo\data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: nitroweb
+      MONGO_INITDB_ROOT_PASSWORD: CE88449A-D355-47EB-B957-EF599C38C9A5
+
+  mongo-express:
+    image: mongo-express
+    container_name: nitro-mongo-express
+    depends_on:
+      - mongo
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: nitroweb
+      ME_CONFIG_MONGODB_ADMINPASSWORD: CE88449A-D355-47EB-B957-EF599C38C9A5
+      ME_CONFIG_MONGODB_URL: mongodb://nitroweb:CE88449A-D355-47EB-B957-EF599C38C9A5@mongo:27017/
+
+  nitro.msvc.tenant:
+    image: ${DOCKER_REGISTRY-}nitromsvctenant
+    container_name: nitro-mscv-tenant
+    depends_on:
+      - rabbitmq
+    build:
+      context: .
+      dockerfile: Nitro.Msvc.Tenant/Dockerfile
+    environment:
+      DOTNET_ENVIRONMENT: Development
+
+  nitro.channel.api:
+    image: ${DOCKER_REGISTRY-}nitrochannelapi
+    container_name: nitro-channel-api
+    depends_on:
+      - rabbitmq
+      - nitro.msvc.tenant
+    ports:
+      - "57597:57597"
+      - "57596:57596"
+    build:
+      context: .
+      dockerfile: Nitro.Channel.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://localhost:57597;http://localhost:57596

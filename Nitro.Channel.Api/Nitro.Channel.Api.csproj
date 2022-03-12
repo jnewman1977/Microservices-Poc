@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+        <UserSecretsId>0146cc0c-cfe7-486d-b490-35a9e3cdd767</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Tye.Extensions.Configuration" Version="0.10.0-alpha.21420.1" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Configuration.Interfaces\Nitro.Msvc.Tenant.Configuration.Interfaces.csproj" />
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Configuration\Nitro.Msvc.Tenant.Configuration.csproj" />
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging\Nitro.Msvc.Tenant.Messaging.csproj" />
+    </ItemGroup>
+
+</Project>
