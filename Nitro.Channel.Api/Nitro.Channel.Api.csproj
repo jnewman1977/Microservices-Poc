@@ -10,6 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="GraphQL.Server.All" Version="5.2.0" />
         <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
         <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
         <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
@@ -22,6 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Nitro.GraphQL\Nitro.GraphQL.csproj" />
         <ProjectReference Include="..\Nitro.Msvc.Tenant.Configuration.Interfaces\Nitro.Msvc.Tenant.Configuration.Interfaces.csproj" />
         <ProjectReference Include="..\Nitro.Msvc.Tenant.Configuration\Nitro.Msvc.Tenant.Configuration.csproj" />
         <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging\Nitro.Msvc.Tenant.Messaging.csproj" />

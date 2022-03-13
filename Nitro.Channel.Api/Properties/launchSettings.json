@@ -12,7 +12,7 @@
     "Nitro.Channel.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "ui/altair",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
