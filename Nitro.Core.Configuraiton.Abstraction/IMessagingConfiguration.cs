@@ -1,4 +1,4 @@
-﻿namespace Nitro.Msvc.Tenant.Configuration.Interfaces;
+﻿namespace Nitro.Core.Configuration.Abstraction;
 
 public interface IMessagingConfiguration
 {
@@ -9,7 +9,7 @@ public interface IMessagingConfiguration
     string VirtualHost { get; }
 
     string ReceiveEndpoint { get; }
-    
+
     string UserName { get; }
 
     string Password { get; }

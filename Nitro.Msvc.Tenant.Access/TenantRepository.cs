@@ -1,17 +1,17 @@
 ﻿using MongoDB.Driver;
-using Nitro.Msvc.Tenant.Configuration.Interfaces;
+using Nitro.Core.Configuration.Abstraction;
 
 namespace Nitro.Msvc.Tenant.Access;
 
 public class TenantRepository : ITenantRepository
 {
-    private readonly IServiceConfiguration serviceConfiguration;
+    private readonly IDatabaseConfiguration serviceConfiguration;
     private readonly IMongoClient mongoClient;
 
-    public TenantRepository(IServiceConfiguration serviceConfiguration,
+    public TenantRepository(IDatabaseConfiguration databaseConfiguration,
         IMongoClient mongoClient)
     {
-        this.serviceConfiguration = serviceConfiguration;
+        this.serviceConfiguration = databaseConfiguration;
         this.mongoClient = mongoClient;
     }
 

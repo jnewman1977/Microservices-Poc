@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Nitro.Msvc.Tenant.Configuration.Interfaces;
+using Nitro.Core.Configuration.Abstraction;
 
 namespace Nitro.Msvc.Tenant.Configuration;
 

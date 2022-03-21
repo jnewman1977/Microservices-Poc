@@ -1,6 +1,4 @@
 using MassTransit;
-using Nitro.Msvc.Tenant.Configuration;
-using Nitro.Msvc.Tenant.Configuration.Interfaces;
 using Nitro.Msvc.Tenant.Messaging;
 using Nitro.Msvc.Tenant.Messaging.Interfaces;
 using GraphQL.DataLoader;
@@ -9,6 +7,8 @@ using Nitro.GraphQL;
 using GraphQL.SystemReactive;
 using GraphQL;
 using GraphQL.Execution;
+using Nitro.Core.Configuration.Abstraction;
+using Nitro.Msvc.Tenant.Configuration;
 
 bool? isRunningInContainer = null;
 
@@ -56,13 +56,14 @@ GraphQL.MicrosoftDI.GraphQLBuilderExtensions.AddGraphQL(builder.Services)
     .ConfigureExecution(options =>
     {
         options.EnableMetrics = builder.Environment.IsDevelopment();
-        var logger = options.RequestServices.GetRequiredService<ILogger<Program>>();
+        var logger = options.RequestServices?.GetRequiredService<ILogger<Program>>();
         options.UnhandledExceptionDelegate = context =>
-            logger.LogError(message: $"{context.OriginalException.Message} ocurred");
+            logger?.LogError(message: $"{context.OriginalException.Message} ocurred");
     })
     .Configure<ErrorInfoProviderOptions>(opt =>
         opt.ExposeExceptionStackTrace = builder.Environment.IsDevelopment())
     .AddSystemTextJson()
+    //.AddNewtonsoftJson()
     .AddWebSockets()
     .AddDataLoader()
     .AddGraphTypes(typeof(NitroSchema).Assembly);

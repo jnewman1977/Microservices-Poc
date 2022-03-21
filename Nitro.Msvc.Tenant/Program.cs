@@ -2,14 +2,13 @@ using System;
 using System.Reflection;
 using System.Threading.Tasks;
 using MassTransit;
-using MassTransit.Clients;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MongoDB.Driver;
+using Nitro.Core.Configuration;
+using Nitro.Core.Configuration.Abstraction;
 using Nitro.Msvc.Tenant.Access;
 using Nitro.Msvc.Tenant.Configuration;
-using Nitro.Msvc.Tenant.Configuration.Interfaces;
 
 namespace Nitro.Msvc.Tenant;
 
@@ -71,12 +70,10 @@ public class Program
 
                 services
                     // Configuration
-                    .AddTransient(p => hostContext.Configuration)
                     .AddTransient<IMessagingConfiguration, MessagingConfiguration>()
-                    .AddTransient<IServiceConfiguration, ServiceConfiguration>()
+                    .AddTransient<IDatabaseConfiguration, DatabaseConfiguration>()
                     // Data Access
-                    .AddTransient<IMongoClient>(p => 
-                        new MongoClient(p.GetRequiredService<IServiceConfiguration>().ConnectionString))
+                    .AddTransient<IMongoClient>(p => new MongoClient(p.GetRequiredService<IDatabaseConfiguration>().ConnectionString))
                     .AddTransient<ITenantRepository, TenantRepository>()
                     // MassTransit
                     .AddMassTransitHostedService(true);

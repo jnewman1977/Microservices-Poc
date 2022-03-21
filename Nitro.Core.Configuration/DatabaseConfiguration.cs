@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Nitro.Msvc.Tenant.Configuration.Interfaces;
+using Nitro.Core.Configuration.Abstraction;
 
-namespace Nitro.Msvc.Tenant.Configuration;
+namespace Nitro.Core.Configuration;
 
-public class ServiceConfiguration : IServiceConfiguration
+public class DatabaseConfiguration : IDatabaseConfiguration
 {
     private readonly IConfiguration configuration;
 
-    public ServiceConfiguration(
+    public DatabaseConfiguration(
         IConfiguration configuration,
         IMessagingConfiguration messagingConfiguration)
     {
