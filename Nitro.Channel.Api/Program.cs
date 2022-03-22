@@ -1,6 +1,5 @@
 using MassTransit;
 using Nitro.Msvc.Tenant.Messaging;
-using Nitro.Msvc.Tenant.Messaging.Interfaces;
 using GraphQL.DataLoader;
 using GraphQL.Server;
 using Nitro.GraphQL;
@@ -9,6 +8,11 @@ using GraphQL;
 using GraphQL.Execution;
 using Nitro.Core.Configuration.Abstraction;
 using Nitro.Msvc.Tenant.Configuration;
+using Nitro.Msvc.Tenant.Messaging.Abstraction;
+using Nitro.GraphQL.Interfaces;
+using Nitro.GraphQL.Tenants;
+using Nitro.Msvc.User.Messaging.Abstraction;
+using Nitro.Msvc.User.Messaging;
 
 bool? isRunningInContainer = null;
 
@@ -38,6 +42,7 @@ builder.Services
         });
     })
     .AddTransient<ITenantServiceClient, TenantServiceClient>()
+    .AddTransient<IUserServiceClient, UserServiceClient>()
     .AddMassTransitHostedService(true);
 
 builder.Services.AddControllers();
@@ -47,7 +52,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services
     .AddSingleton<IRootQuery, RootQuery>()
-    .AddSingleton<ITenantQuery, TenantQuery>();
+    .AddSingleton<ITenantQuery, TenantQuery>()
+    .AddSingleton<IUserQuery, UserQuery>();
 
 GraphQL.MicrosoftDI.GraphQLBuilderExtensions.AddGraphQL(builder.Services)
     .AddSubscriptionDocumentExecuter()
@@ -58,12 +64,11 @@ GraphQL.MicrosoftDI.GraphQLBuilderExtensions.AddGraphQL(builder.Services)
         options.EnableMetrics = builder.Environment.IsDevelopment();
         var logger = options.RequestServices?.GetRequiredService<ILogger<Program>>();
         options.UnhandledExceptionDelegate = context =>
-            logger?.LogError(message: $"{context.OriginalException.Message} ocurred");
+            logger?.LogError(message: "{OriginalException} ocurred", context.OriginalException.Message);
     })
     .Configure<ErrorInfoProviderOptions>(opt =>
         opt.ExposeExceptionStackTrace = builder.Environment.IsDevelopment())
     .AddSystemTextJson()
-    //.AddNewtonsoftJson()
     .AddWebSockets()
     .AddDataLoader()
     .AddGraphTypes(typeof(NitroSchema).Assembly);

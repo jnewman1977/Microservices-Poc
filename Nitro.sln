@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tenant", "Tenant", "{D990975B-2655-43B5-9526-22CC30B85256}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.Tenant.Messaging.Interfaces", "Nitro.Msvc.Tenant.Messaging.Interfaces\Nitro.Msvc.Tenant.Messaging.Interfaces.csproj", "{3CBB0DF9-B25F-47F4-8587-C67BA2A3B6FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.Tenant.Messaging.Abstraction", "Nitro.Msvc.Tenant.Messaging.Interfaces\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj", "{3CBB0DF9-B25F-47F4-8587-C67BA2A3B6FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Access", "Access", "{62C35E89-7421-4128-AD64-D6998BBEC01A}"
 EndProject
@@ -38,7 +38,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.GraphQL", "Nitro.Grap
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GatewayAPI", "GatewayAPI", "{94AD8F20-0F0A-40C1-9716-07BA5ADE74F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User", "Nitro.Msvc.User\Nitro.Msvc.User.csproj", "{3327FE80-E756-4441-B07B-939ACBC5B7CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.User", "Nitro.Msvc.User\Nitro.Msvc.User.csproj", "{3327FE80-E756-4441-B07B-939ACBC5B7CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{4523B7C7-F789-42FE-A7A4-D4AC040FDA6F}"
 EndProject
@@ -48,9 +48,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{74
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7C7931EE-A114-47C0-8FDD-5CAFA0AD124D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Core.Configuration", "Nitro.Core.Configuration\Nitro.Core.Configuration.csproj", "{CCD9B1D9-0A11-4D43-9DB4-FC253350F491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Core.Configuration", "Nitro.Core.Configuration\Nitro.Core.Configuration.csproj", "{CCD9B1D9-0A11-4D43-9DB4-FC253350F491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Core.Configuration.Abstraction", "Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj", "{F80019BC-275F-4A56-9BE3-A2F35781CFF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Core.Configuration.Abstraction", "Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj", "{F80019BC-275F-4A56-9BE3-A2F35781CFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Access", "Nitro.Msvc.User.Access\Nitro.Msvc.User.Access.csproj", "{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Entities", "Nitro.Msvc.User.Entities\Nitro.Msvc.User.Entities.csproj", "{410C456B-053A-43A5-98B9-8A93C872FB09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{B58689A5-CEE6-4A31-8FA7-8203443463E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Messaging", "Nitro.Msvc.User.Messaging\Nitro.Msvc.User.Messaging.csproj", "{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Messaging.Abstraction", "Nitro.Msvc.User.Messaging.Abstraction\Nitro.Msvc.User.Messaging.Abstraction.csproj", "{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,6 +112,22 @@ Global
 		{F80019BC-275F-4A56-9BE3-A2F35781CFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F80019BC-275F-4A56-9BE3-A2F35781CFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F80019BC-275F-4A56-9BE3-A2F35781CFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410C456B-053A-43A5-98B9-8A93C872FB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410C456B-053A-43A5-98B9-8A93C872FB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410C456B-053A-43A5-98B9-8A93C872FB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410C456B-053A-43A5-98B9-8A93C872FB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +151,11 @@ Global
 		{7488E55E-ADC5-49E5-BFA1-0E842DF4430A} = {4523B7C7-F789-42FE-A7A4-D4AC040FDA6F}
 		{CCD9B1D9-0A11-4D43-9DB4-FC253350F491} = {7C7931EE-A114-47C0-8FDD-5CAFA0AD124D}
 		{F80019BC-275F-4A56-9BE3-A2F35781CFF2} = {7C7931EE-A114-47C0-8FDD-5CAFA0AD124D}
+		{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4} = {64983DD2-321A-4B7F-A9A3-F5E5B2ECBD48}
+		{410C456B-053A-43A5-98B9-8A93C872FB09} = {7488E55E-ADC5-49E5-BFA1-0E842DF4430A}
+		{B58689A5-CEE6-4A31-8FA7-8203443463E0} = {4523B7C7-F789-42FE-A7A4-D4AC040FDA6F}
+		{A7C7D97A-E4A2-4BDF-A586-290D361DACBB} = {B58689A5-CEE6-4A31-8FA7-8203443463E0}
+		{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553} = {B58689A5-CEE6-4A31-8FA7-8203443463E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A403E235-631E-4927-A124-63F0B546E11F}

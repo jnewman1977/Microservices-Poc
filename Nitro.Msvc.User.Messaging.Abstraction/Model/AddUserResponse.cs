@@ -1,6 +1,6 @@
-﻿namespace Nitro.Msvc.Tenant.Messaging.Abstraction.Model
+﻿namespace Nitro.Msvc.User.Messaging.Abstraction.Model
 {
-    public class AddTenantResponse
+    public class AddUserResponse
     {
         public bool Success { get; set; }
 

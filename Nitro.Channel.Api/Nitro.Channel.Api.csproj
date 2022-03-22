@@ -27,6 +27,7 @@
         <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj" />
         <ProjectReference Include="..\Nitro.GraphQL\Nitro.GraphQL.csproj" />
         <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging\Nitro.Msvc.Tenant.Messaging.csproj" />
+        <ProjectReference Include="..\Nitro.Msvc.User.Messaging\Nitro.Msvc.User.Messaging.csproj" />
     </ItemGroup>
 
 </Project>

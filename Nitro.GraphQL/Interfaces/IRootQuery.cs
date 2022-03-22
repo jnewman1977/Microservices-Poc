@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 
-namespace Nitro.GraphQL;
+namespace Nitro.GraphQL.Interfaces;
 
 public interface IRootQuery : IObjectGraphType
 {

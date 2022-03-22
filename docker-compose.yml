@@ -39,9 +39,22 @@ services:
     container_name: nitro-mscv-tenant
     depends_on:
       - rabbitmq
+      - mongo
     build:
       context: .
       dockerfile: Nitro.Msvc.Tenant/Dockerfile
+    environment:
+      DOTNET_ENVIRONMENT: Development
+
+  nitro.msvc.user:
+    image: ${DOCKER_REGISTRY-}nitromsvcuser
+    container_name: nitro-mscv-user
+    depends_on:
+      - rabbitmq
+      - mongo
+    build:
+      context: .
+      dockerfile: Nitro.Msvc.User/Dockerfile
     environment:
       DOTNET_ENVIRONMENT: Development
 
@@ -51,6 +64,7 @@ services:
     depends_on:
       - rabbitmq
       - nitro.msvc.tenant
+      - nitro.msvc.user
     ports:
       - "57597:57597"
       - "57596:57596"

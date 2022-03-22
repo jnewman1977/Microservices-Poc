@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using MassTransit;
 using Microsoft.Extensions.Logging;
 using Nitro.Msvc.Tenant.Access;
-using Nitro.Msvc.Tenant.Messaging.Interfaces.Model;
+using Nitro.Msvc.Tenant.Messaging.Abstraction.Model;
 
 namespace Nitro.Msvc.Tenant.Consumers
 {

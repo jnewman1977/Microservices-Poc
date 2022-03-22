@@ -1,8 +1,9 @@
 ﻿using GraphQL;
 using GraphQL.Types;
+using Nitro.GraphQL.Interfaces;
 using Nitro.Msvc.Tenant.Entities;
-using Nitro.Msvc.Tenant.Messaging.Interfaces;
-using Nitro.Msvc.Tenant.Messaging.Interfaces.Model;
+using Nitro.Msvc.Tenant.Messaging.Abstraction;
+using Nitro.Msvc.Tenant.Messaging.Abstraction.Model;
 
 namespace Nitro.GraphQL;
 

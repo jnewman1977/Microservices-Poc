@@ -1,7 +1,7 @@
 ﻿using MassTransit;
 using Microsoft.Extensions.Logging;
-using Nitro.Msvc.Tenant.Messaging.Interfaces;
-using Nitro.Msvc.Tenant.Messaging.Interfaces.Model;
+using Nitro.Msvc.Tenant.Messaging.Abstraction;
+using Nitro.Msvc.Tenant.Messaging.Abstraction.Model;
 
 namespace Nitro.Msvc.Tenant.Messaging;
 
@@ -40,7 +40,7 @@ public class TenantServiceClient : ITenantServiceClient
         }
         catch (Exception e)
         {
-            logger.LogError(e, $"Error calling {nameof(GetAllTenantsAsync)}.");
+            logger.LogError(e, "Error calling {Method}", nameof(GetAllTenantsAsync));
             return new GetAllTenantsResponse { Success = false, Errors = new[] { e.Message } };
         }
     }
@@ -59,7 +59,7 @@ public class TenantServiceClient : ITenantServiceClient
         }
         catch (Exception e)
         {
-            logger.LogError(e, $"Error calling {nameof(GetAllTenantsAsync)}.");
+            logger.LogError(e, "Error calling {Method}", nameof(GetAllTenantsAsync));
             return new AddTenantResponse { Success = false, Errors = new[] { e.Message } };
         }
     }

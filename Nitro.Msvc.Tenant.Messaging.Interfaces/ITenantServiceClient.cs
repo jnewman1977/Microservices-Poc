@@ -1,6 +1,6 @@
-﻿using Nitro.Msvc.Tenant.Messaging.Interfaces.Model;
+﻿using Nitro.Msvc.Tenant.Messaging.Abstraction.Model;
 
-namespace Nitro.Msvc.Tenant.Messaging.Interfaces;
+namespace Nitro.Msvc.Tenant.Messaging.Abstraction;
 
 public interface ITenantServiceClient
 {
