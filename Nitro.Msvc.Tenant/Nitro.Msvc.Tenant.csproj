@@ -18,6 +18,6 @@
         <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj" />
         <ProjectReference Include="..\Nitro.Msvc.Tenant.Access\Nitro.Msvc.Tenant.Access.csproj" />
         <ProjectReference Include="..\Nitro.Msvc.Tenant.Entities\Nitro.Msvc.Tenant.Entities.csproj" />
-        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Interfaces\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj" />
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj" />
     </ItemGroup>
 </Project>

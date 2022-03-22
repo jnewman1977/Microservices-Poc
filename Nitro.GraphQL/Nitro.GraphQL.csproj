@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Interfaces\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj" />
+    <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj" />
     <ProjectReference Include="..\Nitro.Msvc.User.Messaging.Abstraction\Nitro.Msvc.User.Messaging.Abstraction.csproj" />
   </ItemGroup>
 
