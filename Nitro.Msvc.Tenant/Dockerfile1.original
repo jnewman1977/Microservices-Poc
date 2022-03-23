@@ -6,11 +6,13 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Nitro.Msvc.Tenant/Nitro.Msvc.Tenant.csproj", "Nitro.Msvc.Tenant/"]
-COPY ["Nitro.Msvc.Tenant.Messaging.Abstraction/Nitro.Msvc.Tenant.Messaging.Abstraction.csproj", "Nitro.Msvc.Tenant.Messaging.Abstraction/"]
+COPY ["Nitro.Msvc.Tenant.Messaging.Interfaces/Nitro.Msvc.Tenant.Messaging.Interfaces.csproj", "Nitro.Msvc.Tenant.Messaging.Interfaces/"]
 COPY ["Nitro.Msvc.Tenant.Entities/Nitro.Msvc.Tenant.Entities.csproj", "Nitro.Msvc.Tenant.Entities/"]
+COPY ["Nitro.Msvc.Tenant.Entities.Interfaces/Nitro.Msvc.Tenant.Entities.Interfaces.csproj", "Nitro.Msvc.Tenant.Entities.Interfaces/"]
 COPY ["Nitro.Msvc.Tenant.Access/Nitro.Msvc.Tenant.Access.csproj", "Nitro.Msvc.Tenant.Access/"]
-COPY ["Nitro.Core.Configuraiton.Abstraction/Nitro.Core.Configuration.Abstraction.csproj", "Nitro.Core.Configuraiton.Abstraction/"]
-COPY ["Nitro.Core.Configuration/Nitro.Core.Configuration.csproj", "Nitro.Core.Configuration/"]
+COPY ["Nitro.Msvc.Tenant.Configuration.Interfaces/Nitro.Msvc.Tenant.Configuration.Interfaces.csproj", "Nitro.Msvc.Tenant.Configuration.Interfaces/"]
+COPY ["Nitro.Msvc.Tenant.Access.Interfaces/Nitro.Msvc.Tenant.Access.Interfaces.csproj", "Nitro.Msvc.Tenant.Access.Interfaces/"]
+COPY ["Nitro.Msvc.Tenant.Configuration/Nitro.Msvc.Tenant.Configuration.csproj", "Nitro.Msvc.Tenant.Configuration/"]
 RUN dotnet restore "Nitro.Msvc.Tenant/Nitro.Msvc.Tenant.csproj"
 COPY . .
 WORKDIR "/src/Nitro.Msvc.Tenant"

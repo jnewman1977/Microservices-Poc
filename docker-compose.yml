@@ -16,7 +16,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - E:\mongo\data:/data/db
+      - C:\mongo\data:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: nitroweb
       MONGO_INITDB_ROOT_PASSWORD: CE88449A-D355-47EB-B957-EF599C38C9A5
@@ -65,9 +65,6 @@ services:
       - rabbitmq
       - nitro.msvc.tenant
       - nitro.msvc.user
-    ports:
-      - "57597:57597"
-      - "57596:57596"
     build:
       context: .
       dockerfile: Nitro.Channel.Api/Dockerfile
