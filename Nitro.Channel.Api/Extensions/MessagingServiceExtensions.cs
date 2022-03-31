@@ -10,7 +10,7 @@ namespace Nitro.Channel.Api.Extensions
 {
     public static class MessagingServiceExtensions
     {
-        public static IServiceCollection AddMessaging(this IServiceCollection services, 
+        public static IServiceCollection AddMicroservices(this IServiceCollection services, 
             bool isRunningInContainer)
         {
             services

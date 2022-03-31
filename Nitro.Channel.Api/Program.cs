@@ -13,7 +13,7 @@ bool IsDevelopment = builder.Environment.IsDevelopment();
 builder.Services
     .AddLogging()
     .AddTransient<IConfiguration>(p => builder.Configuration)
-    .AddMessaging(IsRunningInContainer)
+    .AddMicroservices(IsRunningInContainer)
     .AddGraphQLEnvironment(enableMetrics: IsDevelopment, exposeExceptions: IsDevelopment);
 
 builder.Services.AddControllers();
