@@ -1,0 +1,50 @@
+graph TB
+    PWA([PWA])
+    IDM(Identity Mgmt)
+    API(GatewayAPI)
+
+    PWA-->API
+    API-->IDM
+    PWA-->|Auth|IDM
+    IDM-->|Auth|PWA
+
+    API-->M1
+    API-->M2
+
+    subgraph External
+        subgraph iSeries
+            MF2(iAdapter)
+            MF1(iSeries Auth)
+        end
+        subgraph ADFS
+            ADFS1(OnPrem Auth)
+        end
+        subgraph AzureAD
+            AAD1(Cust1 Auth)
+            AAD2(Cust2)
+        end
+    end
+
+    IDM-->|Custom Federation / SAML|MF1
+    IDM-->|OSS Federation<br/>SAML, OAuth, OIDC|ADFS1
+    IDM-->|OSS Federation<br/>SAML, OAuth, OIDC|AAD1
+    IDM-->|OSS Federation<br/>SAML, OAuth, OIDC|AAD2
+
+    subgraph Microservices
+        M1(Microservice A)
+        M2(Microservice B)
+        M3(iAdapter Msvc)
+    end
+
+    M1-->D1
+    M2-->D2
+    M3-->D3
+    M3-->MF2
+    M1-->M3
+    M2-->M3
+
+    subgraph Persistence
+        D1[(Tenant Data)]
+        D2[(User Data)]
+        D3[(iAdapter Cache)]
+    end

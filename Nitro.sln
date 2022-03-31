@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tenant", "Tenant", "{D99097
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{29F79D2B-6774-4A01-9A38-65C55E7FDFFE}"
 	ProjectSection(SolutionItems) = preProject
+		auth.mmd = auth.mmd
+		auth.mmd.svg = auth.mmd.svg
 		readme.md = readme.md
 	EndProjectSection
 EndProject
@@ -38,13 +40,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Core.Configuration", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Core.Configuration.Abstraction", "Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj", "{F80019BC-275F-4A56-9BE3-A2F35781CFF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Access", "Nitro.Msvc.User.Access\Nitro.Msvc.User.Access.csproj", "{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.User.Access", "Nitro.Msvc.User.Access\Nitro.Msvc.User.Access.csproj", "{9A157737-DA6C-472C-A2A2-7FCE9EDAFAD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Entities", "Nitro.Msvc.User.Entities\Nitro.Msvc.User.Entities.csproj", "{410C456B-053A-43A5-98B9-8A93C872FB09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.User.Entities", "Nitro.Msvc.User.Entities\Nitro.Msvc.User.Entities.csproj", "{410C456B-053A-43A5-98B9-8A93C872FB09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Messaging", "Nitro.Msvc.User.Messaging\Nitro.Msvc.User.Messaging.csproj", "{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.User.Messaging", "Nitro.Msvc.User.Messaging\Nitro.Msvc.User.Messaging.csproj", "{A7C7D97A-E4A2-4BDF-A586-290D361DACBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro.Msvc.User.Messaging.Abstraction", "Nitro.Msvc.User.Messaging.Abstraction\Nitro.Msvc.User.Messaging.Abstraction.csproj", "{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.User.Messaging.Abstraction", "Nitro.Msvc.User.Messaging.Abstraction\Nitro.Msvc.User.Messaging.Abstraction.csproj", "{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.Tenant.Messaging.Abstraction", "Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj", "{A4EFFB8A-7CD8-4FD2-9F9C-E26036C2CE3F}"
 EndProject
