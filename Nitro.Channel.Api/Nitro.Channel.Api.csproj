@@ -11,6 +11,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Nitro.Channel.Api.csproj.DotSettings" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="GraphQL.Server.All" Version="5.2.0" />
         <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
         <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />

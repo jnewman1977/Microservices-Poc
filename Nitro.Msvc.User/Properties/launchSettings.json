@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Nitro.Msvc.User": {
+      "commandName": "Project"
+    },
+    "Docker (1)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-using Nitro.Channel.Api.Extensions;
+using Nitro.Channel.Api.StartupExtensions;
 
 bool? isRunningInContainer = null;
 

@@ -6,11 +6,11 @@ using Nitro.Msvc.Tenant.Messaging.Abstraction;
 using Nitro.Msvc.User.Messaging;
 using Nitro.Msvc.User.Messaging.Abstraction;
 
-namespace Nitro.Channel.Api.Extensions
+namespace Nitro.Channel.Api.StartupExtensions
 {
     public static class MessagingServiceExtensions
     {
-        public static IServiceCollection AddMicroservices(this IServiceCollection services, 
+        public static IServiceCollection AddMicroservices(this IServiceCollection services,
             bool isRunningInContainer)
         {
             services

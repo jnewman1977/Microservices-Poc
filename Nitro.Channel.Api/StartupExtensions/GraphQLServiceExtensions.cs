@@ -8,7 +8,7 @@ using Nitro.GraphQL.Interfaces;
 using Nitro.GraphQL.Tenants;
 using GraphQLMicrosoftDI = GraphQL.MicrosoftDI.GraphQLBuilderExtensions;
 
-namespace Nitro.Channel.Api.Extensions
+namespace Nitro.Channel.Api.StartupExtensions
 {
     public static class GraphQLServiceExtensions
     {
