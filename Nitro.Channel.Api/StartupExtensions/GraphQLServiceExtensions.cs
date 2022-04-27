@@ -18,6 +18,7 @@ namespace Nitro.Channel.Api.StartupExtensions
             services
                 .AddSingleton<IRootQuery, RootQuery>()
                 .AddSingleton<ITenantQuery, TenantQuery>()
+                .AddSingleton<IStopsHoldsQuery, StopsHoldsQuery>()
                 .AddSingleton<IUserQuery, UserQuery>();
 
             GraphQLMicrosoftDI.AddGraphQL(services)

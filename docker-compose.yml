@@ -71,3 +71,13 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://localhost:57597;http://localhost:57596
+  msvc.iadapter:
+    image: ${DOCKER_REGISTRY-}msvciadapter
+    build:
+      context: .
+      dockerfile: Msvc.IAdapter/Dockerfile
+    depends_on:
+        - rabbitmq    
+    environment:
+      DOTNET_ENVIRONMENT: Development
+

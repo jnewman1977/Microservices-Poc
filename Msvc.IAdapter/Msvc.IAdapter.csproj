@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Msvc.IAdapter.Abstraction\Msvc.IAdapter.Abstraction.csproj" />
+    <ProjectReference Include="..\Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj" />
+    <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IAdapterService.Infrastructure">
+      <HintPath>Dependencies\IAdapterService.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="JackHenry.Banking.JHAContractTypes">
+      <HintPath>Dependencies\JackHenry.Banking.JHAContractTypes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Dependencies\JackHenry.Enterprise.BusinessObjects.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Dependencies\JackHenry.Enterprise.Client.Jxchange.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

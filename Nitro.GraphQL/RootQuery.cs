@@ -13,5 +13,8 @@ public class RootQuery : ObjectGraphType, IRootQuery
 
         Field<IUserQuery>("users", resolve: context =>
             services.GetRequiredService<IUserQuery>());
+
+        Field<IStopsHoldsQuery>("stopsholds", resolve: context =>
+            services.GetRequiredService<IStopsHoldsQuery>());
     }
 }

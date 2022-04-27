@@ -28,6 +28,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Msvc.IAdapter.Messaging\Msvc.IAdapter.Messaging.csproj" />
         <ProjectReference Include="..\Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj" />
         <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj" />
         <ProjectReference Include="..\Nitro.GraphQL\Nitro.GraphQL.csproj" />
