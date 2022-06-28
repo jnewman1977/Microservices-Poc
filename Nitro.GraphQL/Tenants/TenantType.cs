@@ -7,7 +7,7 @@ public class TenantType : ObjectGraphType<Tenant>
 {
     public TenantType()
     {
-        Field(x => x.TenantId, nullable: false, type: typeof(StringGraphType));
-        Field(x => x.Name, nullable: false, type: typeof(StringGraphType));
+        Field(x => x.TenantId, false, typeof(StringGraphType));
+        Field(x => x.Name, false, typeof(StringGraphType));
     }
 }

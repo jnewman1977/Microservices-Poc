@@ -6,16 +6,16 @@ using Nitro.Msvc.Tenant.Messaging.Abstraction;
 using Nitro.Msvc.User.Messaging;
 using Nitro.Msvc.User.Messaging.Abstraction;
 
-namespace Nitro.Channel.Api.StartupExtensions
+namespace Nitro.Channel.Api.StartupExtensions;
+
+public static class MessagingServiceExtensions
 {
-    public static class MessagingServiceExtensions
+    public static IServiceCollection AddMicroservices(this IServiceCollection services,
+        bool isRunningInContainer)
     {
-        public static IServiceCollection AddMicroservices(this IServiceCollection services,
-            bool isRunningInContainer)
-        {
-            services
-                .AddTransient<IMessagingConfiguration, MessagingConfiguration>()
-                .AddMassTransit(x =>
+        services
+            .AddTransient<IMessagingConfiguration, MessagingConfiguration>()
+            .AddMassTransit(x =>
             {
                 x.SetKebabCaseEndpointNameFormatter();
                 x.UsingRabbitMq((context, config) =>
@@ -34,7 +34,6 @@ namespace Nitro.Channel.Api.StartupExtensions
             .AddTransient<IUserServiceClient, UserServiceClient>()
             .AddMassTransitHostedService(true);
 
-            return services;
-        }
+        return services;
     }
 }

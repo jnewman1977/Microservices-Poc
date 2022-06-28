@@ -1,6 +1,5 @@
-﻿namespace Nitro.Msvc.User.Messaging.Abstraction.Model
+﻿namespace Nitro.Msvc.User.Messaging.Abstraction.Model;
+
+public class GetAllUsersRequest
 {
-    public class GetAllUsersRequest
-    {
-    }
 }

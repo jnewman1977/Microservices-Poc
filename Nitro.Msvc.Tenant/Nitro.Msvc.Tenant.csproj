@@ -7,17 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-        <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
-        <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
-        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0" />
+        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+        <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1"/>
+        <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1"/>
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0"/>
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj" />
-        <ProjectReference Include="..\Nitro.Msvc.Tenant.Access\Nitro.Msvc.Tenant.Access.csproj" />
-        <ProjectReference Include="..\Nitro.Msvc.Tenant.Entities\Nitro.Msvc.Tenant.Entities.csproj" />
-        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj" />
+        <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj"/>
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Access\Nitro.Msvc.Tenant.Access.csproj"/>
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Entities\Nitro.Msvc.Tenant.Entities.csproj"/>
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj"/>
     </ItemGroup>
 </Project>

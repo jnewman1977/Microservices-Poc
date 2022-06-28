@@ -10,7 +10,7 @@ public interface IUserRepository
 
     Task<IEnumerable<User>> GetAllWithNameLikeAsync(string userNameLike);
 
-    Task<User> GetUserByIdAsync(string userId);
+    Task<User?> GetUserByIdAsync(string userId);
 
-    Task<User> GetUserByUserNameAsync(string userName);
+    Task<User?> GetUserByUserNameAsync(string userName);
 }

@@ -7,12 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MassTransit" Version="7.3.1" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+        <PackageReference Include="MassTransit" Version="7.3.1"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj" />
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj"/>
     </ItemGroup>
 
 </Project>

@@ -2,19 +2,19 @@ using Nitro.Channel.Api.StartupExtensions;
 
 bool? isRunningInContainer = null;
 
-bool IsRunningInContainer = isRunningInContainer ??= 
+var IsRunningInContainer = isRunningInContainer ??=
     bool.TryParse(Environment.GetEnvironmentVariable("DOTNET_RUNNING_IN_CONTAINER"),
         out var inContainer) && inContainer;
 
 var builder = WebApplication.CreateBuilder(args);
 
-bool IsDevelopment = builder.Environment.IsDevelopment();
+var IsDevelopment = builder.Environment.IsDevelopment();
 
 builder.Services
     .AddLogging()
     .AddTransient<IConfiguration>(p => builder.Configuration)
     .AddMicroservices(IsRunningInContainer)
-    .AddGraphQLEnvironment(enableMetrics: IsDevelopment, exposeExceptions: IsDevelopment);
+    .AddGraphQLEnvironment(IsDevelopment, IsDevelopment);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

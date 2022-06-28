@@ -17,7 +17,8 @@ public class DatabaseConfiguration : IDatabaseConfiguration
 
     private IMessagingConfiguration MessagingConfiguration { get; }
 
-    public string ConnectionString => configuration.GetConnectionString(configuration["Settings:Database:ConnectionString"]);
+    public string ConnectionString =>
+        configuration.GetConnectionString(configuration["Settings:Database:ConnectionString"]);
 
     public string DatabaseName => configuration["Settings:Database:DatabaseName"];
 }

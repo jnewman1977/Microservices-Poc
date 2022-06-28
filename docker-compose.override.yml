@@ -4,9 +4,14 @@ services:
   nitro.channel.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_URLS=http://+:57596
     ports:
-      - "57596:80"
-      - "57597:443"
-    volumes:
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - "57596:57596"
+
+  nitro.msvc.user:
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+  
+  nitro.msvc.tenant:
+    environment:
+      - DOTNET_ENVIRONMENT=Development

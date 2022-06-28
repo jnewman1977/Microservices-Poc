@@ -5,13 +5,13 @@ namespace Nitro.Msvc.User.Access;
 
 public class UserRepository : IUserRepository
 {
-    private readonly IDatabaseConfiguration serviceConfiguration;
     private readonly IMongoClient mongoClient;
+    private readonly IDatabaseConfiguration serviceConfiguration;
 
     public UserRepository(IDatabaseConfiguration databaseConfiguration,
         IMongoClient mongoClient)
     {
-        this.serviceConfiguration = databaseConfiguration;
+        serviceConfiguration = databaseConfiguration;
         this.mongoClient = mongoClient;
     }
 
@@ -41,17 +41,20 @@ public class UserRepository : IUserRepository
         return await collection.OfType<User>().Find(filter).ToListAsync();
     }
 
-    public async Task<User> GetUserByIdAsync(string userId)
+    public async Task<User?> GetUserByIdAsync(string userId)
     {
         var collection = GetCollection();
         var filter = Builders<User>.Filter.Eq(tenant => tenant.UserId, userId);
-        return await collection.OfType<User>().Find(filter).FirstOrDefaultAsync();
+        // return await collection.OfType<User>().Find(filter).FirstOrDefaultAsync();
+        return await collection.Find(filter).FirstOrDefaultAsync();
     }
 
-    public async Task<User> GetUserByUserNameAsync(string userName)
+    public async Task<User?> GetUserByUserNameAsync(string userName)
     {
         var collection = GetCollection();
-        var filter = Builders<User>.Filter.Eq(tenant => tenant.UserName, userName);
+        var filter = Builders<User>
+            .Filter.Eq(tenant => tenant.UserName, userName);
+
         return await collection.OfType<User>().Find(filter).FirstOrDefaultAsync();
     }
 

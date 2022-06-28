@@ -11,28 +11,28 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="Nitro.Channel.Api.csproj.DotSettings" />
+        <None Remove="Nitro.Channel.Api.csproj.DotSettings"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="GraphQL.Server.All" Version="5.2.0" />
-        <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
-        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
-        <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
-        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
-        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+        <PackageReference Include="GraphQL.Server.All" Version="5.2.0"/>
+        <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1"/>
+        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1"/>
+        <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1"/>
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0"/>
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj" />
-        <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj" />
-        <ProjectReference Include="..\Nitro.GraphQL\Nitro.GraphQL.csproj" />
-        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging\Nitro.Msvc.Tenant.Messaging.csproj" />
-        <ProjectReference Include="..\Nitro.Msvc.User.Messaging\Nitro.Msvc.User.Messaging.csproj" />
+        <ProjectReference Include="..\Nitro.Core.Configuraiton.Abstraction\Nitro.Core.Configuration.Abstraction.csproj"/>
+        <ProjectReference Include="..\Nitro.Core.Configuration\Nitro.Core.Configuration.csproj"/>
+        <ProjectReference Include="..\Nitro.GraphQL\Nitro.GraphQL.csproj"/>
+        <ProjectReference Include="..\Nitro.Msvc.Tenant.Messaging\Nitro.Msvc.Tenant.Messaging.csproj"/>
+        <ProjectReference Include="..\Nitro.Msvc.User.Messaging\Nitro.Msvc.User.Messaging.csproj"/>
     </ItemGroup>
 
 </Project>

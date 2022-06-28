@@ -20,9 +20,13 @@ public class UserServiceClient : IUserServiceClient
         GetAllUsersClient = busControl.CreateRequestClient<GetAllUsersRequest>(TimeSpan.FromMinutes(1));
 
         AddUserClient = busControl.CreateRequestClient<AddUserRequest>(TimeSpan.FromMinutes(1));
+
+        GetUserByUserIdClient = busControl.CreateRequestClient<GetUserByUserIdRequest>(TimeSpan.FromMinutes(1));
     }
 
     private IRequestClient<GetAllUsersRequest> GetAllUsersClient { get; }
+
+    private IRequestClient<GetUserByUserIdRequest> GetUserByUserIdClient { get; }
 
     private IRequestClient<AddUserRequest> AddUserClient { get; }
 
@@ -42,6 +46,25 @@ public class UserServiceClient : IUserServiceClient
         {
             logger.LogError(e, "Error calling {Method}", nameof(GetAllUsersAsync));
             return new GetAllUsersResponse { Success = false, Errors = new[] { e.Message } };
+        }
+    }
+
+    public async Task<GetUserByUserIdResponse> GetUserByUserIdAsync(
+        GetUserByUserIdRequest request,
+        CancellationToken cancellationToken)
+    {
+        try
+        {
+            var response = await GetUserByUserIdClient
+                .GetResponse<GetUserByUserIdResponse>(request, cancellationToken)
+                .ConfigureAwait(true);
+
+            return response.Message;
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "Error calling {Method}", nameof(GetUserByUserIdAsync));
+            return new GetUserByUserIdResponse { Success = false, Errors = new[] { e.Message } };
         }
     }
 

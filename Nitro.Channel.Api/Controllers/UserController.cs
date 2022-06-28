@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nitro.Msvc.User.Messaging.Abstraction.Model;
 using Nitro.Msvc.User.Messaging.Abstraction;
+using Nitro.Msvc.User.Messaging.Abstraction.Model;
 
 namespace Nitro.Channel.Api.Controllers;
 

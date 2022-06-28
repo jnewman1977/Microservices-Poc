@@ -5,13 +5,13 @@ namespace Nitro.Msvc.Tenant.Access;
 
 public class TenantRepository : ITenantRepository
 {
-    private readonly IDatabaseConfiguration serviceConfiguration;
     private readonly IMongoClient mongoClient;
+    private readonly IDatabaseConfiguration serviceConfiguration;
 
     public TenantRepository(IDatabaseConfiguration databaseConfiguration,
         IMongoClient mongoClient)
     {
-        this.serviceConfiguration = databaseConfiguration;
+        serviceConfiguration = databaseConfiguration;
         this.mongoClient = mongoClient;
     }
 

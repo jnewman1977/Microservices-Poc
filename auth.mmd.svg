@@ -1,1 +1,692 @@
-<svg id="graph-div" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="696.0689697265625" style="max-width: 1419.857421875px;" viewBox="0.0000152587890625 0.0000019073486328125 1419.857421875 696.0689697265625"><style>#graph-div {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#graph-div .error-icon{fill:#552222;}#graph-div .error-text{fill:#552222;stroke:#552222;}#graph-div .edge-thickness-normal{stroke-width:2px;}#graph-div .edge-thickness-thick{stroke-width:3.5px;}#graph-div .edge-pattern-solid{stroke-dasharray:0;}#graph-div .edge-pattern-dashed{stroke-dasharray:3;}#graph-div .edge-pattern-dotted{stroke-dasharray:2;}#graph-div .marker{fill:#333333;stroke:#333333;}#graph-div .marker.cross{stroke:#333333;}#graph-div svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#graph-div .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#333;}#graph-div .cluster-label text{fill:#333;}#graph-div .cluster-label span{color:#333;}#graph-div .label text,#graph-div span{fill:#333;color:#333;}#graph-div .node rect,#graph-div .node circle,#graph-div .node ellipse,#graph-div .node polygon,#graph-div .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#graph-div .node .label{text-align:center;}#graph-div .node.clickable{cursor:pointer;}#graph-div .arrowheadPath{fill:#333333;}#graph-div .edgePath .path{stroke:#333333;stroke-width:2.0px;}#graph-div .flowchart-link{stroke:#333333;fill:none;}#graph-div .edgeLabel{background-color:#e8e8e8;text-align:center;}#graph-div .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#graph-div .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#graph-div .cluster text{fill:#333;}#graph-div .cluster span{color:#333;}#graph-div div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#graph-div :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><g class="output"><g class="clusters"><g class="cluster" id="flowchart-Persistence-133330" transform="translate(262.02180576324463,596.9797916412354)" style="opacity: 1;"><rect width="508.04361152648926" height="182.1783218383789" x="-254.02180576324463" y="-91.08916091918945"></rect><g class="label" transform="translate(0, -77.08915710449219)" id="graph-divText"><g transform="translate(-40.546878814697266,-11.992188453674316)"><foreignObject width="81.09375762939453" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Persistence</div></foreignObject></g></g></g><g class="cluster" id="flowchart-Microservices-133331" transform="translate(358.86913871765137,313.93750190734863)" style="opacity: 1;"><rect width="662.3697776794434" height="187.96875" x="-331.1848888397217" y="-93.984375"></rect><g class="label" transform="translate(0, -79.984375)" id="graph-divText"><g transform="translate(-47.792972564697266,-11.992188453674316)"><foreignObject width="95.58594512939453" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Microservices</div></foreignObject></g></g></g><g class="cluster" id="flowchart-External-133332" transform="translate(973.9505090713501,596.9797916412354)" style="opacity: 1;"><rect width="875.8137950897217" height="182.1783218383789" x="-437.90689754486084" y="-91.08916091918945"></rect><g class="label" transform="translate(0, -77.08915710449219)" id="graph-divText"><g transform="translate(-29.876300811767578,-11.992188453674316)"><foreignObject width="59.752601623535156" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">External</div></foreignObject></g></g></g><g class="cluster" id="flowchart-iSeries-133335" transform="translate(709.3378810882568,596.9797916412354)" style="opacity: 1;"><rect width="306.58853912353516" height="132.1783218383789" x="-153.29426956176758" y="-66.08916091918945"></rect><g class="label" transform="translate(0, -52.08915710449219)" id="graph-divText"><g transform="translate(-23.489582061767578,-11.992188453674316)"><foreignObject width="46.979164123535156" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">iSeries</div></foreignObject></g></g></g><g class="cluster" id="flowchart-ADFS-133334" transform="translate(974.637357711792,596.9797916412354)" style="opacity: 1;"><rect width="184.01041412353516" height="132.1783218383789" x="-92.00520706176758" y="-66.08916091918945"></rect><g class="label" transform="translate(0, -52.08915710449219)" id="graph-divText"><g transform="translate(-17.67578125,-11.992188453674316)"><foreignObject width="35.3515625" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">ADFS</div></foreignObject></g></g></g><g class="cluster" id="flowchart-AzureAD-133333" transform="translate(1239.2499856948853,596.9797916412354)" style="opacity: 1;"><rect width="305.21484184265137" height="132.1783218383789" x="-152.60742092132568" y="-66.08916091918945"></rect><g class="label" transform="translate(0, -52.08915710449219)" id="graph-divText"><g transform="translate(-29.98697853088379,-11.992188453674316)"><foreignObject width="59.97395706176758" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">AzureAD</div></foreignObject></g></g></g></g><g class="edgePaths"><g class="edgePath LS-PWA LE-API" id="L-PWA-API" style="opacity: 1;"><path class="path" d="M867.3115139007568,33.17973761881786L796.7876977920532,40.48051051568155C726.2638816833496,47.781283412545235,585.2162494659424,62.38282920627262,514.6924333572388,73.85026876980298C444.16861724853516,85.31770833333333,444.16861724853516,93.65104166666667,444.16861724853516,97.81770833333333L444.16861724853516,101.984375" marker-end="url(#arrowhead114516)" style="fill:none"></path><defs><marker id="arrowhead114516" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-API LE-IDM" id="L-API-IDM" style="opacity: 1;"><path class="path" d="M496.8248710632324,134.3566662958455L537.9182124137878,142.45737832215033C579.0115537643433,150.55809034845512,661.1982364654541,166.7595144010647,702.2915778160095,181.02559116964858C743.3849191665649,195.29166793823242,743.3849191665649,207.62239742279053,743.3849191665649,221.61979341506958C743.3849191665649,235.61718940734863,743.3849191665649,251.28125190734863,743.3849191665649,266.94531440734863C743.3849191665649,282.60937690734863,743.3849191665649,298.27343940734863,788.2610843976339,312.51218291269373C833.1372496287028,326.75092641803883,922.8895800908407,339.564350928729,967.7657453219095,345.9710631840741L1012.6419105529785,352.3777754394192" marker-end="url(#arrowhead114517)" style="fill:none"></path><defs><marker id="arrowhead114517" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-PWA LE-IDM" id="L-PWA-IDM" style="opacity: 1;"><path class="path" d="M903.760912324425,51.984375L904.8329567921132,56.151041666666664C905.9050012598015,60.317708333333336,908.0490901951779,68.65104166666667,909.121134662866,80.64973958333333C910.1931791305542,92.6484375,910.1931791305542,108.3125,910.1931791305542,125.97526057561238C910.1931791305542,143.63802115122476,910.1931791305542,163.29947980244955,910.1931791305542,179.29557387034097C910.1931791305542,195.29166793823242,910.1931791305542,207.62239742279053,910.1931791305542,221.61979341506958C910.1931791305542,235.61718940734863,910.1931791305542,251.28125190734863,910.1931791305542,266.94531440734863C910.1931791305542,282.60937690734863,910.1931791305542,298.27343940734863,927.2679677009583,311.0477332590461C944.3427562713623,323.8220271107436,978.4923334121704,333.70655231413855,995.5671219825745,338.648814915836L1012.6419105529785,343.5910775175335" marker-end="url(#arrowhead114518)" style="fill:none"></path><defs><marker id="arrowhead114518" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-IDM LE-PWA" id="L-IDM-PWA" style="opacity: 1;"><path class="path" d="M1093.5801140752715,338.93750190734863L1097.5655930015182,334.77083524068195C1101.5510719277647,330.6041685740153,1109.5220297802582,322.27083524068195,1113.507508706505,310.2721373240153C1117.4929876327515,298.27343940734863,1117.4929876327515,282.60937690734863,1117.4929876327515,266.94531440734863C1117.4929876327515,251.28125190734863,1117.4929876327515,235.61718940734863,1117.4929876327515,221.61979341506958C1117.4929876327515,207.62239742279053,1117.4929876327515,195.29166793823242,1117.4929876327515,179.29557387034097C1117.4929876327515,163.29947980244955,1117.4929876327515,143.63802115122476,1117.4929876327515,125.97526057561238C1117.4929876327515,108.3125,1117.4929876327515,92.6484375,1086.0597465833027,78.08358497312307C1054.6265055338542,63.51873244624614,991.7600234349569,50.05308989249229,960.3267823855082,43.320268615615355L928.8935413360596,36.58744733873842" marker-end="url(#arrowhead114519)" style="fill:none"></path><defs><marker id="arrowhead114519" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-API LE-M1" id="L-API-M1" style="opacity: 1;"><path class="path" d="M391.5123634338379,135.73114679856425L356.2503210703532,143.6027787410826C320.98827870686847,151.47441068360095,250.46419397989908,167.21767456863765,215.2021516164144,181.25467125343502C179.9401092529297,195.29166793823242,179.9401092529297,207.62239742279053,179.9401092529297,217.95442883173624C179.9401092529297,228.28646024068198,179.9401092529297,236.6197935740153,179.9401092529297,240.78646024068198L179.9401092529297,244.95312690734863" marker-end="url(#arrowhead114520)" style="fill:none"></path><defs><marker id="arrowhead114520" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-API LE-M2" id="L-API-M2" style="opacity: 1;"><path class="path" d="M444.16861724853516,145.96875L444.16861724853516,152.13411474227905C444.16861724853516,158.2994794845581,444.16861724853516,170.6302089691162,444.16861724853516,182.96093845367432C444.16861724853516,195.29166793823242,444.16861724853516,207.62239742279053,444.16861724853516,217.95442883173624C444.16861724853516,228.28646024068198,444.16861724853516,236.6197935740153,444.16861724853516,240.78646024068198L444.16861724853516,244.95312690734863" marker-end="url(#arrowhead114521)" style="fill:none"></path><defs><marker id="arrowhead114521" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-IDM LE-MF1" id="L-IDM-MF1" style="opacity: 1;"><path class="path" d="M1012.6419105529785,370.3934409661548L973.0515254338583,376.6481802896871C933.4611403147379,382.9029196132194,854.2803700764974,395.41239826028396,814.6899849573771,409.83120040170775C775.0995998382568,424.25000254313153,775.0995998382568,440.57812817891437,775.0995998382568,456.90625381469727C775.0995998382568,473.23437945048016,775.0995998382568,489.562505086263,775.0995998382568,501.8932345708211C775.0995998382568,514.2239640553793,775.0995998382568,522.5572973887125,775.0995998382568,534.0734596252441C775.0995998382568,545.5896218617758,775.0995998382568,560.2886130015055,775.0995998382568,567.6381085713705L775.0995998382568,574.9876041412354" marker-end="url(#arrowhead114522)" style="fill:none"></path><defs><marker id="arrowhead114522" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-IDM LE-ADFS1" id="L-IDM-ADFS1" style="opacity: 1;"><path class="path" d="M1026.7241542702006,382.92187690734863L1018.0430215104658,387.0885435740153C1009.361888750731,391.25521024068195,991.9996232312615,399.5885435740153,983.3184904715267,411.9192730585734C974.637357711792,424.25000254313153,974.637357711792,440.57812817891437,974.637357711792,456.90625381469727C974.637357711792,473.23437945048016,974.637357711792,489.562505086263,974.637357711792,501.8932345708211C974.637357711792,514.2239640553793,974.637357711792,522.5572973887125,974.637357711792,534.0734596252441C974.637357711792,545.5896218617758,974.637357711792,560.2886130015055,974.637357711792,567.6381085713705L974.637357711792,574.9876041412354" marker-end="url(#arrowhead114523)" style="fill:none"></path><defs><marker id="arrowhead114523" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-IDM LE-AAD1" id="L-IDM-AAD1" style="opacity: 1;"><path class="path" d="M1118.364361965151,382.92187690734863L1127.0454947248857,387.0885435740153C1135.7266274846204,391.25521024068195,1153.08889300409,399.5885435740153,1161.7700257638248,411.9192730585734C1170.4511585235596,424.25000254313153,1170.4511585235596,440.57812817891437,1170.4511585235596,456.90625381469727C1170.4511585235596,473.23437945048016,1170.4511585235596,489.562505086263,1170.4511585235596,501.8932345708211C1170.4511585235596,514.2239640553793,1170.4511585235596,522.5572973887125,1170.4511585235596,534.0734596252441C1170.4511585235596,545.5896218617758,1170.4511585235596,560.2886130015055,1170.4511585235596,567.6381085713705L1170.4511585235596,574.9876041412354" marker-end="url(#arrowhead114524)" style="fill:none"></path><defs><marker id="arrowhead114524" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-IDM LE-AAD2" id="L-IDM-AAD2" style="opacity: 1;"><path class="path" d="M1132.446605682373,371.9883015229522L1164.887468655904,377.977230753685C1197.3283316294353,383.96615998441774,1262.2100575764973,395.94401844588316,1294.6509205500286,410.0970104945074C1327.0917835235596,424.25000254313153,1327.0917835235596,440.57812817891437,1327.0917835235596,456.90625381469727C1327.0917835235596,473.23437945048016,1327.0917835235596,489.562505086263,1327.0917835235596,501.8932345708211C1327.0917835235596,514.2239640553793,1327.0917835235596,522.5572973887125,1327.0917835235596,534.0734596252441C1327.0917835235596,545.5896218617758,1327.0917835235596,560.2886130015055,1327.0917835235596,567.6381085713705L1327.0917835235596,574.9876041412354" marker-end="url(#arrowhead114525)" style="fill:none"></path><defs><marker id="arrowhead114525" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-M1 LE-D1" id="L-M1-D1" style="opacity: 1;"><path class="path" d="M140.66921579451335,288.93750190734863L133.22890442287732,293.1041685740153C125.78859305124132,297.27083524068195,110.90797030796928,305.6041685740153,103.46765893633328,317.60286649068195C96.02734756469727,329.60156440734863,96.02734756469727,345.26562690734863,96.02734756469727,360.92968940734863C96.02734756469727,376.59375190734863,96.02734756469727,392.25781440734863,96.02734756469727,408.25390847524005C96.02734756469727,424.25000254313153,96.02734756469727,440.57812817891437,96.02734756469727,456.90625381469727C96.02734756469727,473.23437945048016,96.02734756469727,489.562505086263,96.02734756469727,501.8932345708211C96.02734756469727,514.2239640553793,96.02734756469727,522.5572973887125,96.02734756469727,531.2046928405762C96.02734756469727,539.8520882924398,96.02734756469727,548.8135458628336,96.02734756469727,553.2942746480306L96.02734756469727,557.7750034332275" marker-end="url(#arrowhead114526)" style="fill:none"></path><defs><marker id="arrowhead114526" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-M2 LE-D2" id="L-M2-D2" style="opacity: 1;"><path class="path" d="M382.6712226867676,282.346869089121L361.64800294240314,287.6119745588256C340.62478319803876,292.8770800285302,298.5783437093099,303.40729096793945,277.5551239649455,316.504427687644C256.53190422058105,329.60156440734863,256.53190422058105,345.26562690734863,256.53190422058105,360.92968940734863C256.53190422058105,376.59375190734863,256.53190422058105,392.25781440734863,256.53190422058105,408.25390847524005C256.53190422058105,424.25000254313153,256.53190422058105,440.57812817891437,256.53190422058105,456.90625381469727C256.53190422058105,473.23437945048016,256.53190422058105,489.562505086263,256.53190422058105,501.8932345708211C256.53190422058105,514.2239640553793,256.53190422058105,522.5572973887125,256.53190422058105,531.4640153249105C256.53190422058105,540.3707332611084,256.53190422058105,549.8508358001709,256.53190422058105,554.5908870697021L256.53190422058105,559.3309383392334" marker-end="url(#arrowhead114527)" style="fill:none"></path><defs><marker id="arrowhead114527" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-M3 LE-D3" id="L-M3-D3" style="opacity: 1;"><path class="path" d="M473.54172112361056,382.92187690734863L463.982575232912,387.0885435740153C454.4234293422134,391.25521024068195,435.30513756081615,399.5885435740153,425.7459916701175,411.9192730585734C416.18684577941895,424.25000254313153,416.18684577941895,440.57812817891437,416.18684577941895,456.90625381469727C416.18684577941895,473.23437945048016,416.18684577941895,489.562505086263,416.18684577941895,501.8932345708211C416.18684577941895,514.2239640553793,416.18684577941895,522.5572973887125,416.18684577941895,530.8906307220459C416.18684577941895,539.2239640553793,416.18684577941895,547.5572973887125,416.18684577941895,551.7239640553793L416.18684577941895,555.8906307220459" marker-end="url(#arrowhead114528)" style="fill:none"></path><defs><marker id="arrowhead114528" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-M3 LE-MF2" id="L-M3-MF2" style="opacity: 1;"><path class="path" d="M574.4504549322977,382.92187690734863L584.0096008229963,387.0885435740153C593.5687467136948,391.25521024068195,612.6870384950921,399.5885435740153,622.2461843857907,411.9192730585734C631.8053302764893,424.25000254313153,631.8053302764893,440.57812817891437,631.8053302764893,456.90625381469727C631.8053302764893,473.23437945048016,631.8053302764893,489.562505086263,631.8053302764893,501.8932345708211C631.8053302764893,514.2239640553793,631.8053302764893,522.5572973887125,631.8053302764893,534.0734596252441C631.8053302764893,545.5896218617758,631.8053302764893,560.2886130015055,631.8053302764893,567.6381085713705L631.8053302764893,574.9876041412354" marker-end="url(#arrowhead114529)" style="fill:none"></path><defs><marker id="arrowhead114529" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-M1 LE-M3" id="L-M1-M3" style="opacity: 1;"><path class="path" d="M241.62630462646484,284.36378603767326L259.0818163553874,289.29273868261913C276.5373280843099,294.22169132756505,311.44835154215497,304.07959661745684,348.5154078801473,314.1966062002104C385.58246421813965,324.31361578296395,424.8055534362793,334.6897296585792,444.4170980453491,339.8777865963869L464.02864265441895,345.0658435341945" marker-end="url(#arrowhead114530)" style="fill:none"></path><defs><marker id="arrowhead114530" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-M2 LE-M3" id="L-M2-M3" style="opacity: 1;"><path class="path" d="M505.66601181030273,282.346869089121L526.6892315546671,287.6119745588256C547.7124512990316,292.8770800285302,589.7588907877604,303.40729096793945,601.2229646414263,312.8390631043107C612.6870384950921,322.27083524068195,593.5687467136948,330.6041685740153,584.0096008229963,334.77083524068195L574.4504549322977,338.93750190734863" marker-end="url(#arrowhead114531)" style="fill:none"></path><defs><marker id="arrowhead114531" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-PWA-API" class="edgeLabel L-LS-PWA' L-LE-API"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-API-IDM" class="edgeLabel L-LS-API' L-LE-IDM"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(910.1931791305542,182.96093845367432)" style="opacity: 1;"><g transform="translate(-16.63248634338379,-11.992188453674316)" class="label"><rect rx="0" ry="0" width="33.26497268676758" height="23.984376907348633"></rect><foreignObject width="33.26497268676758" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-PWA-IDM" class="edgeLabel L-LS-PWA' L-LE-IDM">Auth</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(1117.4929876327515,182.96093845367432)" style="opacity: 1;"><g transform="translate(-16.63248634338379,-11.992188453674316)" class="label"><rect rx="0" ry="0" width="33.26497268676758" height="23.984376907348633"></rect><foreignObject width="33.26497268676758" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-IDM-PWA" class="edgeLabel L-LS-IDM' L-LE-PWA">Auth</span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-API-M1" class="edgeLabel L-LS-API' L-LE-M1"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-API-M2" class="edgeLabel L-LS-API' L-LE-M2"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(775.0995998382568,456.90625381469727)" style="opacity: 1;"><g transform="translate(-95.03092193603516,-11.992188453674316)" class="label"><rect rx="0" ry="0" width="190.0618438720703" height="23.984376907348633"></rect><foreignObject width="190.0618438720703" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-IDM-MF1" class="edgeLabel L-LS-IDM' L-LE-MF1">Custom Federation / SAML</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(974.637357711792,456.90625381469727)" style="opacity: 1;"><g transform="translate(-68.3203125,-23.984376907348633)" class="label"><rect rx="0" ry="0" width="136.640625" height="47.968753814697266"></rect><foreignObject width="136.640625" height="47.96875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-IDM-ADFS1" class="edgeLabel L-LS-IDM' L-LE-ADFS1">OSS Federation<br/>SAML, OAuth, OIDC</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(1170.4511585235596,456.90625381469727)" style="opacity: 1;"><g transform="translate(-68.3203125,-23.984376907348633)" class="label"><rect rx="0" ry="0" width="136.640625" height="47.968753814697266"></rect><foreignObject width="136.640625" height="47.96875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-IDM-AAD1" class="edgeLabel L-LS-IDM' L-LE-AAD1">OSS Federation<br/>SAML, OAuth, OIDC</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(1327.0917835235596,456.90625381469727)" style="opacity: 1;"><g transform="translate(-68.3203125,-23.984376907348633)" class="label"><rect rx="0" ry="0" width="136.640625" height="47.968753814697266"></rect><foreignObject width="136.640625" height="47.96875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-IDM-AAD2" class="edgeLabel L-LS-IDM' L-LE-AAD2">OSS Federation<br/>SAML, OAuth, OIDC</span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-M1-D1" class="edgeLabel L-LS-M1' L-LE-D1"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-M2-D2" class="edgeLabel L-LS-M2' L-LE-D2"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-M3-D3" class="edgeLabel L-LS-M3' L-LE-D3"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-M3-MF2" class="edgeLabel L-LS-M3' L-LE-MF2"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-M1-M3" class="edgeLabel L-LS-M1' L-LE-M3"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-M2-M3" class="edgeLabel L-LS-M2' L-LE-M3"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-D1-133316" label-offset-y="11.475063844731883" transform="translate(96.02734756469727,596.9797916412354)" style="opacity: 1;"><path d="M 0,11.475063844731883 a 53.027347564697266,11.475063844731883 0,0,0 106.05469512939453 0 a 53.027347564697266,11.475063844731883 0,0,0 -106.05469512939453 0 l 0,55.45944075208052 a 53.027347564697266,11.475063844731883 0,0,0 106.05469512939453 0 l 0,-55.45944075208052" transform="translate(-53.027347564697266,-39.20478422077214)" class="label-container"></path><g class="label" transform="translate(0,0)"><g transform="translate(-43.027347564697266,-11.992188453674316)"><foreignObject width="86.05469512939453" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Tenant Data</div></foreignObject></g></g></g><g class="node default" id="flowchart-D2-133318" label-offset-y="10.437776661356457" transform="translate(256.53190422058105,596.9797916412354)" style="opacity: 1;"><path d="M 0,10.437776661356457 a 44.79817581176758,10.437776661356457 0,0,0 89.59635162353516 0 a 44.79817581176758,10.437776661356457 0,0,0 -89.59635162353516 0 l 0,54.42215356870509 a 44.79817581176758,10.437776661356457 0,0,0 89.59635162353516 0 l 0,-54.42215356870509" transform="translate(-44.79817581176758,-37.648853445709)" class="label-container"></path><g class="label" transform="translate(0,0)"><g transform="translate(-34.79817581176758,-11.992188453674316)"><foreignObject width="69.59635162353516" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">User Data</div></foreignObject></g></g></g><g class="node default" id="flowchart-D3-133320" label-offset-y="12.731315693884705" transform="translate(416.18684577941895,596.9797916412354)" style="opacity: 1;"><path d="M 0,12.731315693884705 a 64.85676956176758,12.731315693884705 0,0,0 129.71353912353516 0 a 64.85676956176758,12.731315693884705 0,0,0 -129.71353912353516 0 l 0,56.715692601233336 a 64.85676956176758,12.731315693884705 0,0,0 129.71353912353516 0 l 0,-56.715692601233336" transform="translate(-64.85676956176758,-41.089161994501374)" class="label-container"></path><g class="label" transform="translate(0,0)"><g transform="translate(-54.85676956176758,-11.992188453674316)"><foreignObject width="109.71353912353516" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">iAdapter Cache</div></foreignObject></g></g></g><g class="node default" id="flowchart-M1-133296" transform="translate(179.9401092529297,266.94531440734863)" style="opacity: 1;"><rect rx="5" ry="5" x="-61.686195373535156" y="-21.992188453674316" width="123.37239074707031" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-51.686195373535156,-11.992188453674316)"><foreignObject width="103.37239074707031" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Microservice A</div></foreignObject></g></g></g><g class="node default" id="flowchart-M2-133298" transform="translate(444.16861724853516,266.94531440734863)" style="opacity: 1;"><rect rx="5" ry="5" x="-61.49739456176758" y="-21.992188453674316" width="122.99478912353516" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-51.49739456176758,-11.992188453674316)"><foreignObject width="102.99478912353516" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Microservice B</div></foreignObject></g></g></g><g class="node default" id="flowchart-M3-133314" transform="translate(523.9960880279541,360.92968940734863)" style="opacity: 1;"><rect rx="5" ry="5" x="-59.967445373535156" y="-21.992188453674316" width="119.93489074707031" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-49.967445373535156,-11.992188453674316)"><foreignObject width="99.93489074707031" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">iAdapter Msvc</div></foreignObject></g></g></g><g class="node default" id="flowchart-AAD1-133302" transform="translate(1170.4511585235596,596.9797916412354)" style="opacity: 1;"><rect rx="5" ry="5" x="-48.80859375" y="-21.992188453674316" width="97.6171875" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.80859375,-11.992188453674316)"><foreignObject width="77.6171875" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Cust1 Auth</div></foreignObject></g></g></g><g class="node default" id="flowchart-AAD2-133303" transform="translate(1327.0917835235596,596.9797916412354)" style="opacity: 1;"><rect rx="5" ry="5" x="-29.765625" y="-21.992188453674316" width="59.53125" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-19.765625,-11.992188453674316)"><foreignObject width="39.53125" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Cust2</div></foreignObject></g></g></g><g class="node default" id="flowchart-ADFS1-133301" transform="translate(974.637357711792,596.9797916412354)" style="opacity: 1;"><rect rx="5" ry="5" x="-57.00520706176758" y="-21.992188453674316" width="114.01041412353516" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-47.00520706176758,-11.992188453674316)"><foreignObject width="94.01041412353516" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">OnPrem Auth</div></foreignObject></g></g></g><g class="node default" id="flowchart-MF2-133299" transform="translate(631.8053302764893,596.9797916412354)" style="opacity: 1;"><rect rx="5" ry="5" x="-40.76171875" y="-21.992188453674316" width="81.5234375" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-30.76171875,-11.992188453674316)"><foreignObject width="61.5234375" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">iAdapter</div></foreignObject></g></g></g><g class="node default" id="flowchart-MF1-133300" transform="translate(775.0995998382568,596.9797916412354)" style="opacity: 1;"><rect rx="5" ry="5" x="-52.53255081176758" y="-21.992188453674316" width="105.06510162353516" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.53255081176758,-11.992188453674316)"><foreignObject width="85.06510162353516" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">iSeries Auth</div></foreignObject></g></g></g><g class="node default" id="flowchart-PWA-133284" transform="translate(898.1025276184082,29.9921875)" style="opacity: 1;"><rect rx="21.992188453674316" ry="21.992188453674316" x="-30.79101586341858" y="-21.992188453674316" width="61.58203172683716" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-15.29296875,-11.992188453674316)"><foreignObject width="30.5859375" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">PWA</div></foreignObject></g></g></g><g class="node default" id="flowchart-IDM-133285" transform="translate(1072.5442581176758,360.92968940734863)" style="opacity: 1;"><rect rx="5" ry="5" x="-59.902347564697266" y="-21.992188453674316" width="119.80469512939453" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-49.902347564697266,-11.992188453674316)"><foreignObject width="99.80469512939453" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Identity Mgmt</div></foreignObject></g></g></g><g class="node default" id="flowchart-API-133286" transform="translate(444.16861724853516,123.9765625)" style="opacity: 1;"><rect rx="5" ry="5" x="-52.656253814697266" y="-21.992188453674316" width="105.31250762939453" height="43.98437690734863" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-42.656253814697266,-11.992188453674316)"><foreignObject width="85.31250762939453" height="23.984375"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">GatewayAPI</div></foreignObject></g></g></g></g></g></g></svg>
+<svg id="graph-div" width="100%" xmlns="http://www.w3.org/2000/svg" height="696.0689697265625"
+     style="max-width: 1419.857421875px;"
+     viewBox="0.0000152587890625 0.0000019073486328125 1419.857421875 696.0689697265625">
+    <style>#graph-div {font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#graph-div
+        .error-icon{fill:#552222;}#graph-div .error-text{fill:#552222;stroke:#552222;}#graph-div
+        .edge-thickness-normal{stroke-width:2px;}#graph-div .edge-thickness-thick{stroke-width:3.5px;}#graph-div
+        .edge-pattern-solid{stroke-dasharray:0;}#graph-div .edge-pattern-dashed{stroke-dasharray:3;}#graph-div
+        .edge-pattern-dotted{stroke-dasharray:2;}#graph-div .marker{fill:#333333;stroke:#333333;}#graph-div
+        .marker.cross{stroke:#333333;}#graph-div svg{font-family:"trebuchet
+        ms",verdana,arial,sans-serif;font-size:16px;}#graph-div .label{font-family:"trebuchet
+        ms",verdana,arial,sans-serif;color:#333;}#graph-div .cluster-label text{fill:#333;}#graph-div .cluster-label
+        span{color:#333;}#graph-div .label text,#graph-div span{fill:#333;color:#333;}#graph-div .node rect,#graph-div
+        .node circle,#graph-div .node ellipse,#graph-div .node polygon,#graph-div .node
+        path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#graph-div .node .label{text-align:center;}#graph-div
+        .node.clickable{cursor:pointer;}#graph-div .arrowheadPath{fill:#333333;}#graph-div .edgePath
+        .path{stroke:#333333;stroke-width:2.0px;}#graph-div .flowchart-link{stroke:#333333;fill:none;}#graph-div
+        .edgeLabel{background-color:#e8e8e8;text-align:center;}#graph-div .edgeLabel
+        rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#graph-div .cluster
+        rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#graph-div .cluster text{fill:#333;}#graph-div .cluster
+        span{color:#333;}#graph-div
+        div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet
+        ms",verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid
+        #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#graph-div :root{--mermaid-font-family:"trebuchet
+        ms",verdana,arial,sans-serif;}
+    </style>
+    <g>
+        <g class="output">
+            <g class="clusters">
+                <g class="cluster" id="flowchart-Persistence-133330"
+                   transform="translate(262.02180576324463,596.9797916412354)" style="opacity: 1;">
+                    <rect width="508.04361152648926" height="182.1783218383789" x="-254.02180576324463"
+                          y="-91.08916091918945"></rect>
+                    <g class="label" transform="translate(0, -77.08915710449219)" id="graph-divText">
+                        <g transform="translate(-40.546878814697266,-11.992188453674316)">
+                            <foreignObject width="81.09375762939453" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Persistence
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="cluster" id="flowchart-Microservices-133331"
+                   transform="translate(358.86913871765137,313.93750190734863)" style="opacity: 1;">
+                    <rect width="662.3697776794434" height="187.96875" x="-331.1848888397217" y="-93.984375"></rect>
+                    <g class="label" transform="translate(0, -79.984375)" id="graph-divText">
+                        <g transform="translate(-47.792972564697266,-11.992188453674316)">
+                            <foreignObject width="95.58594512939453" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Microservices
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="cluster" id="flowchart-External-133332"
+                   transform="translate(973.9505090713501,596.9797916412354)" style="opacity: 1;">
+                    <rect width="875.8137950897217" height="182.1783218383789" x="-437.90689754486084"
+                          y="-91.08916091918945"></rect>
+                    <g class="label" transform="translate(0, -77.08915710449219)" id="graph-divText">
+                        <g transform="translate(-29.876300811767578,-11.992188453674316)">
+                            <foreignObject width="59.752601623535156" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">External
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="cluster" id="flowchart-iSeries-133335"
+                   transform="translate(709.3378810882568,596.9797916412354)" style="opacity: 1;">
+                    <rect width="306.58853912353516" height="132.1783218383789" x="-153.29426956176758"
+                          y="-66.08916091918945"></rect>
+                    <g class="label" transform="translate(0, -52.08915710449219)" id="graph-divText">
+                        <g transform="translate(-23.489582061767578,-11.992188453674316)">
+                            <foreignObject width="46.979164123535156" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">iSeries
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="cluster" id="flowchart-ADFS-133334" transform="translate(974.637357711792,596.9797916412354)"
+                   style="opacity: 1;">
+                    <rect width="184.01041412353516" height="132.1783218383789" x="-92.00520706176758"
+                          y="-66.08916091918945"></rect>
+                    <g class="label" transform="translate(0, -52.08915710449219)" id="graph-divText">
+                        <g transform="translate(-17.67578125,-11.992188453674316)">
+                            <foreignObject width="35.3515625" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">ADFS
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="cluster" id="flowchart-AzureAD-133333"
+                   transform="translate(1239.2499856948853,596.9797916412354)" style="opacity: 1;">
+                    <rect width="305.21484184265137" height="132.1783218383789" x="-152.60742092132568"
+                          y="-66.08916091918945"></rect>
+                    <g class="label" transform="translate(0, -52.08915710449219)" id="graph-divText">
+                        <g transform="translate(-29.98697853088379,-11.992188453674316)">
+                            <foreignObject width="59.97395706176758" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">AzureAD
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g class="edgePaths">
+                <g class="edgePath LS-PWA LE-API" id="L-PWA-API" style="opacity: 1;">
+                    <path class="path"
+                          d="M867.3115139007568,33.17973761881786L796.7876977920532,40.48051051568155C726.2638816833496,47.781283412545235,585.2162494659424,62.38282920627262,514.6924333572388,73.85026876980298C444.16861724853516,85.31770833333333,444.16861724853516,93.65104166666667,444.16861724853516,97.81770833333333L444.16861724853516,101.984375"
+                          marker-end="url(#arrowhead114516)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114516" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-API LE-IDM" id="L-API-IDM" style="opacity: 1;">
+                    <path class="path"
+                          d="M496.8248710632324,134.3566662958455L537.9182124137878,142.45737832215033C579.0115537643433,150.55809034845512,661.1982364654541,166.7595144010647,702.2915778160095,181.02559116964858C743.3849191665649,195.29166793823242,743.3849191665649,207.62239742279053,743.3849191665649,221.61979341506958C743.3849191665649,235.61718940734863,743.3849191665649,251.28125190734863,743.3849191665649,266.94531440734863C743.3849191665649,282.60937690734863,743.3849191665649,298.27343940734863,788.2610843976339,312.51218291269373C833.1372496287028,326.75092641803883,922.8895800908407,339.564350928729,967.7657453219095,345.9710631840741L1012.6419105529785,352.3777754394192"
+                          marker-end="url(#arrowhead114517)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114517" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-PWA LE-IDM" id="L-PWA-IDM" style="opacity: 1;">
+                    <path class="path"
+                          d="M903.760912324425,51.984375L904.8329567921132,56.151041666666664C905.9050012598015,60.317708333333336,908.0490901951779,68.65104166666667,909.121134662866,80.64973958333333C910.1931791305542,92.6484375,910.1931791305542,108.3125,910.1931791305542,125.97526057561238C910.1931791305542,143.63802115122476,910.1931791305542,163.29947980244955,910.1931791305542,179.29557387034097C910.1931791305542,195.29166793823242,910.1931791305542,207.62239742279053,910.1931791305542,221.61979341506958C910.1931791305542,235.61718940734863,910.1931791305542,251.28125190734863,910.1931791305542,266.94531440734863C910.1931791305542,282.60937690734863,910.1931791305542,298.27343940734863,927.2679677009583,311.0477332590461C944.3427562713623,323.8220271107436,978.4923334121704,333.70655231413855,995.5671219825745,338.648814915836L1012.6419105529785,343.5910775175335"
+                          marker-end="url(#arrowhead114518)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114518" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-IDM LE-PWA" id="L-IDM-PWA" style="opacity: 1;">
+                    <path class="path"
+                          d="M1093.5801140752715,338.93750190734863L1097.5655930015182,334.77083524068195C1101.5510719277647,330.6041685740153,1109.5220297802582,322.27083524068195,1113.507508706505,310.2721373240153C1117.4929876327515,298.27343940734863,1117.4929876327515,282.60937690734863,1117.4929876327515,266.94531440734863C1117.4929876327515,251.28125190734863,1117.4929876327515,235.61718940734863,1117.4929876327515,221.61979341506958C1117.4929876327515,207.62239742279053,1117.4929876327515,195.29166793823242,1117.4929876327515,179.29557387034097C1117.4929876327515,163.29947980244955,1117.4929876327515,143.63802115122476,1117.4929876327515,125.97526057561238C1117.4929876327515,108.3125,1117.4929876327515,92.6484375,1086.0597465833027,78.08358497312307C1054.6265055338542,63.51873244624614,991.7600234349569,50.05308989249229,960.3267823855082,43.320268615615355L928.8935413360596,36.58744733873842"
+                          marker-end="url(#arrowhead114519)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114519" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-API LE-M1" id="L-API-M1" style="opacity: 1;">
+                    <path class="path"
+                          d="M391.5123634338379,135.73114679856425L356.2503210703532,143.6027787410826C320.98827870686847,151.47441068360095,250.46419397989908,167.21767456863765,215.2021516164144,181.25467125343502C179.9401092529297,195.29166793823242,179.9401092529297,207.62239742279053,179.9401092529297,217.95442883173624C179.9401092529297,228.28646024068198,179.9401092529297,236.6197935740153,179.9401092529297,240.78646024068198L179.9401092529297,244.95312690734863"
+                          marker-end="url(#arrowhead114520)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114520" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-API LE-M2" id="L-API-M2" style="opacity: 1;">
+                    <path class="path"
+                          d="M444.16861724853516,145.96875L444.16861724853516,152.13411474227905C444.16861724853516,158.2994794845581,444.16861724853516,170.6302089691162,444.16861724853516,182.96093845367432C444.16861724853516,195.29166793823242,444.16861724853516,207.62239742279053,444.16861724853516,217.95442883173624C444.16861724853516,228.28646024068198,444.16861724853516,236.6197935740153,444.16861724853516,240.78646024068198L444.16861724853516,244.95312690734863"
+                          marker-end="url(#arrowhead114521)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114521" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-IDM LE-MF1" id="L-IDM-MF1" style="opacity: 1;">
+                    <path class="path"
+                          d="M1012.6419105529785,370.3934409661548L973.0515254338583,376.6481802896871C933.4611403147379,382.9029196132194,854.2803700764974,395.41239826028396,814.6899849573771,409.83120040170775C775.0995998382568,424.25000254313153,775.0995998382568,440.57812817891437,775.0995998382568,456.90625381469727C775.0995998382568,473.23437945048016,775.0995998382568,489.562505086263,775.0995998382568,501.8932345708211C775.0995998382568,514.2239640553793,775.0995998382568,522.5572973887125,775.0995998382568,534.0734596252441C775.0995998382568,545.5896218617758,775.0995998382568,560.2886130015055,775.0995998382568,567.6381085713705L775.0995998382568,574.9876041412354"
+                          marker-end="url(#arrowhead114522)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114522" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-IDM LE-ADFS1" id="L-IDM-ADFS1" style="opacity: 1;">
+                    <path class="path"
+                          d="M1026.7241542702006,382.92187690734863L1018.0430215104658,387.0885435740153C1009.361888750731,391.25521024068195,991.9996232312615,399.5885435740153,983.3184904715267,411.9192730585734C974.637357711792,424.25000254313153,974.637357711792,440.57812817891437,974.637357711792,456.90625381469727C974.637357711792,473.23437945048016,974.637357711792,489.562505086263,974.637357711792,501.8932345708211C974.637357711792,514.2239640553793,974.637357711792,522.5572973887125,974.637357711792,534.0734596252441C974.637357711792,545.5896218617758,974.637357711792,560.2886130015055,974.637357711792,567.6381085713705L974.637357711792,574.9876041412354"
+                          marker-end="url(#arrowhead114523)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114523" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-IDM LE-AAD1" id="L-IDM-AAD1" style="opacity: 1;">
+                    <path class="path"
+                          d="M1118.364361965151,382.92187690734863L1127.0454947248857,387.0885435740153C1135.7266274846204,391.25521024068195,1153.08889300409,399.5885435740153,1161.7700257638248,411.9192730585734C1170.4511585235596,424.25000254313153,1170.4511585235596,440.57812817891437,1170.4511585235596,456.90625381469727C1170.4511585235596,473.23437945048016,1170.4511585235596,489.562505086263,1170.4511585235596,501.8932345708211C1170.4511585235596,514.2239640553793,1170.4511585235596,522.5572973887125,1170.4511585235596,534.0734596252441C1170.4511585235596,545.5896218617758,1170.4511585235596,560.2886130015055,1170.4511585235596,567.6381085713705L1170.4511585235596,574.9876041412354"
+                          marker-end="url(#arrowhead114524)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114524" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-IDM LE-AAD2" id="L-IDM-AAD2" style="opacity: 1;">
+                    <path class="path"
+                          d="M1132.446605682373,371.9883015229522L1164.887468655904,377.977230753685C1197.3283316294353,383.96615998441774,1262.2100575764973,395.94401844588316,1294.6509205500286,410.0970104945074C1327.0917835235596,424.25000254313153,1327.0917835235596,440.57812817891437,1327.0917835235596,456.90625381469727C1327.0917835235596,473.23437945048016,1327.0917835235596,489.562505086263,1327.0917835235596,501.8932345708211C1327.0917835235596,514.2239640553793,1327.0917835235596,522.5572973887125,1327.0917835235596,534.0734596252441C1327.0917835235596,545.5896218617758,1327.0917835235596,560.2886130015055,1327.0917835235596,567.6381085713705L1327.0917835235596,574.9876041412354"
+                          marker-end="url(#arrowhead114525)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114525" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-M1 LE-D1" id="L-M1-D1" style="opacity: 1;">
+                    <path class="path"
+                          d="M140.66921579451335,288.93750190734863L133.22890442287732,293.1041685740153C125.78859305124132,297.27083524068195,110.90797030796928,305.6041685740153,103.46765893633328,317.60286649068195C96.02734756469727,329.60156440734863,96.02734756469727,345.26562690734863,96.02734756469727,360.92968940734863C96.02734756469727,376.59375190734863,96.02734756469727,392.25781440734863,96.02734756469727,408.25390847524005C96.02734756469727,424.25000254313153,96.02734756469727,440.57812817891437,96.02734756469727,456.90625381469727C96.02734756469727,473.23437945048016,96.02734756469727,489.562505086263,96.02734756469727,501.8932345708211C96.02734756469727,514.2239640553793,96.02734756469727,522.5572973887125,96.02734756469727,531.2046928405762C96.02734756469727,539.8520882924398,96.02734756469727,548.8135458628336,96.02734756469727,553.2942746480306L96.02734756469727,557.7750034332275"
+                          marker-end="url(#arrowhead114526)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114526" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-M2 LE-D2" id="L-M2-D2" style="opacity: 1;">
+                    <path class="path"
+                          d="M382.6712226867676,282.346869089121L361.64800294240314,287.6119745588256C340.62478319803876,292.8770800285302,298.5783437093099,303.40729096793945,277.5551239649455,316.504427687644C256.53190422058105,329.60156440734863,256.53190422058105,345.26562690734863,256.53190422058105,360.92968940734863C256.53190422058105,376.59375190734863,256.53190422058105,392.25781440734863,256.53190422058105,408.25390847524005C256.53190422058105,424.25000254313153,256.53190422058105,440.57812817891437,256.53190422058105,456.90625381469727C256.53190422058105,473.23437945048016,256.53190422058105,489.562505086263,256.53190422058105,501.8932345708211C256.53190422058105,514.2239640553793,256.53190422058105,522.5572973887125,256.53190422058105,531.4640153249105C256.53190422058105,540.3707332611084,256.53190422058105,549.8508358001709,256.53190422058105,554.5908870697021L256.53190422058105,559.3309383392334"
+                          marker-end="url(#arrowhead114527)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114527" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-M3 LE-D3" id="L-M3-D3" style="opacity: 1;">
+                    <path class="path"
+                          d="M473.54172112361056,382.92187690734863L463.982575232912,387.0885435740153C454.4234293422134,391.25521024068195,435.30513756081615,399.5885435740153,425.7459916701175,411.9192730585734C416.18684577941895,424.25000254313153,416.18684577941895,440.57812817891437,416.18684577941895,456.90625381469727C416.18684577941895,473.23437945048016,416.18684577941895,489.562505086263,416.18684577941895,501.8932345708211C416.18684577941895,514.2239640553793,416.18684577941895,522.5572973887125,416.18684577941895,530.8906307220459C416.18684577941895,539.2239640553793,416.18684577941895,547.5572973887125,416.18684577941895,551.7239640553793L416.18684577941895,555.8906307220459"
+                          marker-end="url(#arrowhead114528)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114528" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-M3 LE-MF2" id="L-M3-MF2" style="opacity: 1;">
+                    <path class="path"
+                          d="M574.4504549322977,382.92187690734863L584.0096008229963,387.0885435740153C593.5687467136948,391.25521024068195,612.6870384950921,399.5885435740153,622.2461843857907,411.9192730585734C631.8053302764893,424.25000254313153,631.8053302764893,440.57812817891437,631.8053302764893,456.90625381469727C631.8053302764893,473.23437945048016,631.8053302764893,489.562505086263,631.8053302764893,501.8932345708211C631.8053302764893,514.2239640553793,631.8053302764893,522.5572973887125,631.8053302764893,534.0734596252441C631.8053302764893,545.5896218617758,631.8053302764893,560.2886130015055,631.8053302764893,567.6381085713705L631.8053302764893,574.9876041412354"
+                          marker-end="url(#arrowhead114529)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114529" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-M1 LE-M3" id="L-M1-M3" style="opacity: 1;">
+                    <path class="path"
+                          d="M241.62630462646484,284.36378603767326L259.0818163553874,289.29273868261913C276.5373280843099,294.22169132756505,311.44835154215497,304.07959661745684,348.5154078801473,314.1966062002104C385.58246421813965,324.31361578296395,424.8055534362793,334.6897296585792,444.4170980453491,339.8777865963869L464.02864265441895,345.0658435341945"
+                          marker-end="url(#arrowhead114530)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114530" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+                <g class="edgePath LS-M2 LE-M3" id="L-M2-M3" style="opacity: 1;">
+                    <path class="path"
+                          d="M505.66601181030273,282.346869089121L526.6892315546671,287.6119745588256C547.7124512990316,292.8770800285302,589.7588907877604,303.40729096793945,601.2229646414263,312.8390631043107C612.6870384950921,322.27083524068195,593.5687467136948,330.6041685740153,584.0096008229963,334.77083524068195L574.4504549322977,338.93750190734863"
+                          marker-end="url(#arrowhead114531)" style="fill:none"></path>
+                    <defs>
+                        <marker id="arrowhead114531" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth"
+                                markerWidth="8" markerHeight="6" orient="auto">
+                            <path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath"
+                                  style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+                        </marker>
+                    </defs>
+                </g>
+            </g>
+            <g class="edgeLabels">
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-PWA-API" class="edgeLabel L-LS-PWA' L-LE-API"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-API-IDM" class="edgeLabel L-LS-API' L-LE-IDM"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="translate(910.1931791305542,182.96093845367432)" style="opacity: 1;">
+                    <g transform="translate(-16.63248634338379,-11.992188453674316)" class="label">
+                        <rect rx="0" ry="0" width="33.26497268676758" height="23.984376907348633"></rect>
+                        <foreignObject width="33.26497268676758" height="23.984375">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-PWA-IDM" class="edgeLabel L-LS-PWA' L-LE-IDM">Auth</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="translate(1117.4929876327515,182.96093845367432)" style="opacity: 1;">
+                    <g transform="translate(-16.63248634338379,-11.992188453674316)" class="label">
+                        <rect rx="0" ry="0" width="33.26497268676758" height="23.984376907348633"></rect>
+                        <foreignObject width="33.26497268676758" height="23.984375">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-IDM-PWA" class="edgeLabel L-LS-IDM' L-LE-PWA">Auth</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-API-M1" class="edgeLabel L-LS-API' L-LE-M1"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-API-M2" class="edgeLabel L-LS-API' L-LE-M2"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="translate(775.0995998382568,456.90625381469727)" style="opacity: 1;">
+                    <g transform="translate(-95.03092193603516,-11.992188453674316)" class="label">
+                        <rect rx="0" ry="0" width="190.0618438720703" height="23.984376907348633"></rect>
+                        <foreignObject width="190.0618438720703" height="23.984375">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-IDM-MF1" class="edgeLabel L-LS-IDM' L-LE-MF1">Custom Federation / SAML
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="translate(974.637357711792,456.90625381469727)" style="opacity: 1;">
+                    <g transform="translate(-68.3203125,-23.984376907348633)" class="label">
+                        <rect rx="0" ry="0" width="136.640625" height="47.968753814697266"></rect>
+                        <foreignObject width="136.640625" height="47.96875">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-IDM-ADFS1" class="edgeLabel L-LS-IDM' L-LE-ADFS1">OSS Federation<br/>SAML,
+                                    OAuth, OIDC
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="translate(1170.4511585235596,456.90625381469727)" style="opacity: 1;">
+                    <g transform="translate(-68.3203125,-23.984376907348633)" class="label">
+                        <rect rx="0" ry="0" width="136.640625" height="47.968753814697266"></rect>
+                        <foreignObject width="136.640625" height="47.96875">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-IDM-AAD1" class="edgeLabel L-LS-IDM' L-LE-AAD1">OSS Federation<br/>SAML,
+                                    OAuth, OIDC
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="translate(1327.0917835235596,456.90625381469727)" style="opacity: 1;">
+                    <g transform="translate(-68.3203125,-23.984376907348633)" class="label">
+                        <rect rx="0" ry="0" width="136.640625" height="47.968753814697266"></rect>
+                        <foreignObject width="136.640625" height="47.96875">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-IDM-AAD2" class="edgeLabel L-LS-IDM' L-LE-AAD2">OSS Federation<br/>SAML,
+                                    OAuth, OIDC
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-M1-D1" class="edgeLabel L-LS-M1' L-LE-D1"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-M2-D2" class="edgeLabel L-LS-M2' L-LE-D2"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-M3-D3" class="edgeLabel L-LS-M3' L-LE-D3"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-M3-MF2" class="edgeLabel L-LS-M3' L-LE-MF2"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-M1-M3" class="edgeLabel L-LS-M1' L-LE-M3"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel" transform="" style="opacity: 1;">
+                    <g transform="translate(0,0)" class="label">
+                        <rect rx="0" ry="0" width="0" height="0"></rect>
+                        <foreignObject width="0" height="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                 style="display: inline-block; white-space: nowrap;">
+                                <span id="L-L-M2-M3" class="edgeLabel L-LS-M2' L-LE-M3"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+            <g class="nodes">
+                <g class="node default" id="flowchart-D1-133316" label-offset-y="11.475063844731883"
+                   transform="translate(96.02734756469727,596.9797916412354)" style="opacity: 1;">
+                    <path d="M 0,11.475063844731883 a 53.027347564697266,11.475063844731883 0,0,0 106.05469512939453 0 a 53.027347564697266,11.475063844731883 0,0,0 -106.05469512939453 0 l 0,55.45944075208052 a 53.027347564697266,11.475063844731883 0,0,0 106.05469512939453 0 l 0,-55.45944075208052"
+                          transform="translate(-53.027347564697266,-39.20478422077214)" class="label-container"></path>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-43.027347564697266,-11.992188453674316)">
+                            <foreignObject width="86.05469512939453" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Tenant Data
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-D2-133318" label-offset-y="10.437776661356457"
+                   transform="translate(256.53190422058105,596.9797916412354)" style="opacity: 1;">
+                    <path d="M 0,10.437776661356457 a 44.79817581176758,10.437776661356457 0,0,0 89.59635162353516 0 a 44.79817581176758,10.437776661356457 0,0,0 -89.59635162353516 0 l 0,54.42215356870509 a 44.79817581176758,10.437776661356457 0,0,0 89.59635162353516 0 l 0,-54.42215356870509"
+                          transform="translate(-44.79817581176758,-37.648853445709)" class="label-container"></path>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-34.79817581176758,-11.992188453674316)">
+                            <foreignObject width="69.59635162353516" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">User Data
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-D3-133320" label-offset-y="12.731315693884705"
+                   transform="translate(416.18684577941895,596.9797916412354)" style="opacity: 1;">
+                    <path d="M 0,12.731315693884705 a 64.85676956176758,12.731315693884705 0,0,0 129.71353912353516 0 a 64.85676956176758,12.731315693884705 0,0,0 -129.71353912353516 0 l 0,56.715692601233336 a 64.85676956176758,12.731315693884705 0,0,0 129.71353912353516 0 l 0,-56.715692601233336"
+                          transform="translate(-64.85676956176758,-41.089161994501374)" class="label-container"></path>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-54.85676956176758,-11.992188453674316)">
+                            <foreignObject width="109.71353912353516" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">iAdapter Cache
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-M1-133296"
+                   transform="translate(179.9401092529297,266.94531440734863)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-61.686195373535156" y="-21.992188453674316" width="123.37239074707031"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-51.686195373535156,-11.992188453674316)">
+                            <foreignObject width="103.37239074707031" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Microservice A
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-M2-133298"
+                   transform="translate(444.16861724853516,266.94531440734863)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-61.49739456176758" y="-21.992188453674316" width="122.99478912353516"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-51.49739456176758,-11.992188453674316)">
+                            <foreignObject width="102.99478912353516" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Microservice B
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-M3-133314"
+                   transform="translate(523.9960880279541,360.92968940734863)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-59.967445373535156" y="-21.992188453674316" width="119.93489074707031"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-49.967445373535156,-11.992188453674316)">
+                            <foreignObject width="99.93489074707031" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">iAdapter Msvc
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-AAD1-133302"
+                   transform="translate(1170.4511585235596,596.9797916412354)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-48.80859375" y="-21.992188453674316" width="97.6171875"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-38.80859375,-11.992188453674316)">
+                            <foreignObject width="77.6171875" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Cust1 Auth
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-AAD2-133303"
+                   transform="translate(1327.0917835235596,596.9797916412354)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-29.765625" y="-21.992188453674316" width="59.53125"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-19.765625,-11.992188453674316)">
+                            <foreignObject width="39.53125" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Cust2
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-ADFS1-133301"
+                   transform="translate(974.637357711792,596.9797916412354)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-57.00520706176758" y="-21.992188453674316" width="114.01041412353516"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-47.00520706176758,-11.992188453674316)">
+                            <foreignObject width="94.01041412353516" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">OnPrem Auth
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-MF2-133299"
+                   transform="translate(631.8053302764893,596.9797916412354)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-40.76171875" y="-21.992188453674316" width="81.5234375"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-30.76171875,-11.992188453674316)">
+                            <foreignObject width="61.5234375" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">iAdapter
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-MF1-133300"
+                   transform="translate(775.0995998382568,596.9797916412354)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-52.53255081176758" y="-21.992188453674316" width="105.06510162353516"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-42.53255081176758,-11.992188453674316)">
+                            <foreignObject width="85.06510162353516" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">iSeries Auth
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-PWA-133284" transform="translate(898.1025276184082,29.9921875)"
+                   style="opacity: 1;">
+                    <rect rx="21.992188453674316" ry="21.992188453674316" x="-30.79101586341858" y="-21.992188453674316"
+                          width="61.58203172683716" height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-15.29296875,-11.992188453674316)">
+                            <foreignObject width="30.5859375" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">PWA
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-IDM-133285"
+                   transform="translate(1072.5442581176758,360.92968940734863)" style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-59.902347564697266" y="-21.992188453674316" width="119.80469512939453"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-49.902347564697266,-11.992188453674316)">
+                            <foreignObject width="99.80469512939453" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">Identity Mgmt
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="node default" id="flowchart-API-133286" transform="translate(444.16861724853516,123.9765625)"
+                   style="opacity: 1;">
+                    <rect rx="5" ry="5" x="-52.656253814697266" y="-21.992188453674316" width="105.31250762939453"
+                          height="43.98437690734863" class="label-container"></rect>
+                    <g class="label" transform="translate(0,0)">
+                        <g transform="translate(-42.656253814697266,-11.992188453674316)">
+                            <foreignObject width="85.31250762939453" height="23.984375">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: inline-block; white-space: nowrap;">GatewayAPI
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

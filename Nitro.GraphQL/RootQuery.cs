@@ -8,7 +8,7 @@ public class RootQuery : ObjectGraphType, IRootQuery
 {
     public RootQuery(IServiceProvider services)
     {
-        Field<ITenantQuery>("tenants", resolve: context => 
+        Field<ITenantQuery>("tenants", resolve: context =>
             services.GetRequiredService<ITenantQuery>());
 
         Field<IUserQuery>("users", resolve: context =>

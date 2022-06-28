@@ -50,6 +50,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.User.Messaging.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nitro.Msvc.Tenant.Messaging.Abstraction", "Nitro.Msvc.Tenant.Messaging.Abstraction\Nitro.Msvc.Tenant.Messaging.Abstraction.csproj", "{A4EFFB8A-7CD8-4FD2-9F9C-E26036C2CE3F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphQL-Altair", "GraphQL-Altair", "{B463D16A-7A44-435C-A99E-65D94A04E5D2}"
+	ProjectSection(SolutionItems) = preProject
+		examples.agc = examples.agc
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +142,7 @@ Global
 		{A7C7D97A-E4A2-4BDF-A586-290D361DACBB} = {4523B7C7-F789-42FE-A7A4-D4AC040FDA6F}
 		{0BD0E5BB-1FE8-4F6D-80B3-0974B7A0A553} = {4523B7C7-F789-42FE-A7A4-D4AC040FDA6F}
 		{A4EFFB8A-7CD8-4FD2-9F9C-E26036C2CE3F} = {D990975B-2655-43B5-9526-22CC30B85256}
+		{B463D16A-7A44-435C-A99E-65D94A04E5D2} = {29F79D2B-6774-4A01-9A38-65C55E7FDFFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A403E235-631E-4927-A124-63F0B546E11F}
